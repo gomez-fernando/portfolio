@@ -5,61 +5,61 @@ function english() {
   for (let item of welcome) {
     console.log(item.id);
     item.innerHTML = "Welcome";
-  };
+  }
 
   let portfolio = document.getElementsByClassName("t_portfolio");
   for (let item of portfolio) {
     console.log(item.id);
     item.innerHTML = "Portfolio";
-  };
+  }
 
   let home = document.getElementsByClassName("t_home");
   for (let item of home) {
     console.log(item.id);
     item.innerHTML = "Home";
-  };
+  }
 
   let contact = document.getElementsByClassName("t_contact");
   for (let item of contact) {
     console.log(item.id);
     item.innerHTML = "Contact";
-  };
+  }
 
   let technologies = document.getElementsByClassName("t_technologies");
   for (let item of technologies) {
     console.log(item.id);
     item.innerHTML = "Technologies";
-  };
+  }
 
   let account = document.getElementsByClassName("t_account");
   for (let item of account) {
     console.log(item.id);
     item.innerHTML = "In my ";
-  };
+  }
 
   let find = document.getElementsByClassName("t_find");
   for (let item of find) {
     console.log(item.id);
     item.innerHTML = "account you can find the code of this site.";
-  };
+  }
 
   let visit = document.getElementsByClassName("t_visit");
   for (let item of visit) {
     console.log(item.id);
     item.innerHTML = "Visit the website";
-  };
+  }
 
   let course = document.getElementsByClassName("t_course");
   for (let item of course) {
     console.log(item.id);
     item.innerHTML = "Course done on the educational platform ";
-  };
+  }
 
   let certificates = document.getElementsByClassName("t_certificates");
   for (let item of certificates) {
     console.log(item.id);
     item.innerHTML = "Certificates";
-  };
+  }
 
   // Ids -------------------------------------
   // -----------------------------------------
@@ -67,13 +67,16 @@ function english() {
   t10.innerHTML = "Fernando Gomez <br> Web Developer";
 
   let t40 = document.getElementById("t40");
-  t40.innerHTML = "On this website you can find a personal projects' selection, academic information about me and contact links.";
+  t40.innerHTML =
+    "On this website you can find a personal projects' selection, academic information about me and contact links.";
 
   let t50 = document.getElementById("t50");
-  t50.innerHTML = "I'm currently studying the Senior Technician in Web Development career at the UOC (Open University of Catalonia).";
+  t50.innerHTML =
+    "I'm currently studying the Senior Technician in Web Development career at the UOC (Open University of Catalonia).";
 
   let t60 = document.getElementById("t60");
-  t60.innerHTML = "I also perform as a freelance web developer for little enterprises and individuals.";
+  t60.innerHTML =
+    "I also perform as a freelance web developer for little enterprises and individuals.";
 
   let t70 = document.getElementById("t70");
   t70.innerHTML = "The languages and frameworks I work with are: ";
@@ -85,18 +88,16 @@ function english() {
   t90.innerHTML = "You can contact me using the following links";
 
   let t100 = document.getElementById("t100");
-  t100.innerHTML = "Website to follow the quotation of the main cryptocurrencies. It uses the CoinCap API to get all the data and besides it shows a graph of price evolution in the last 24 hours.";
+  t100.innerHTML =
+    "Website to follow the quotation of the main cryptocurrencies. It uses the CoinCap API to get all the data and besides it shows a graph of price evolution in the last 24 hours.";
 
-  let t110 = document.getElementById(
-    "t110"
-  );
+  let t110 = document.getElementById("t110");
   t110.innerHTML =
     "Online store developed with Angular 8. Using components, modules and routes. Connected to the Platzi's API REST. Layout with Material Design and hosted in Firebase.";
 
-  let t120 = document.getElementById(
-    "t120"
-  );
-  t120.innerHTML = "A CMS developed entirely with Laravel 6. It uses an SQL database. Users, press articles and editorial, publication or news deletion permissions can be fully managed. Developed within the UOC’s academic curriculum.";
+  let t120 = document.getElementById("t120");
+  t120.innerHTML =
+    "A CMS developed entirely with Laravel 6. It uses an SQL database. Users, press articles and editorial, publication or news deletion permissions can be fully managed. Developed within the UOC’s academic curriculum.";
 
   let t130 = document.getElementById("t130");
   t130.innerHTML =
@@ -107,11 +108,10 @@ function english() {
     "This site uses XMLHttpRequest() to obtain random data about users and movies. I use just Vanilla JS and this site is developed within the jQuery to JavaScript course of Platzi.";
 
   let t150 = document.getElementById("t150");
-  t150.innerHTML = "A social network developed with Laravel 6. Users can comment, give likes and stars to products. They can make their favorite list. The administrator can block users and add products and categories. Developed within the UOC’s academic curriculum.";
+  t150.innerHTML =
+    "A social network developed with Laravel 6. Users can comment, give likes and stars to products. They can make their favorite list. The administrator can block users and add products and categories. Developed within the UOC’s academic curriculum.";
 
-  let t160 = document.getElementById(
-    "t160"
-  );
+  let t160 = document.getElementById("t160");
   t160.innerHTML =
     "Design of a blog with resposive design using jQuery. It has several features such as a clock, login, theme selector, slider, back-to-top button and the posts are generated from the JS file.";
 
@@ -119,62 +119,47 @@ function english() {
   t170.innerHTML =
     "Responsive website of the National Institute of Occupational Risks. Developed within the academic curriculum of the  Open University of Catalonia (UOC). Accident reports can be recorded, edited and consulted. Users and sessions control. It uses an SQL database.";
 
-  let t180 = document.getElementById(
-    "t180"
-  );
+  let t180 = document.getElementById("t180");
   t180.innerHTML = "Instagram's layout";
 
-  let t190 = document.getElementById(
-    "t190"
-  );
-  t190.innerHTML =
-    "Use of CSS Grid to replicate the Instagram's page design.";
+  let t190 = document.getElementById("t190");
+  t190.innerHTML = "Use of CSS Grid to replicate the Instagram's page design.";
 
-  let t200 = document.getElementById(
-    "t200"
-  );
-  t200.innerHTML =
-    "Simon says with colors";
+  let t200 = document.getElementById("t200");
+  t200.innerHTML = "Simon says with colors";
 
   let t210 = document.getElementById("t210");
-  t210.innerHTML = "Memory game where you must follow the sequence of illuminated colors to level up. You can select the background theme among 5 different colors.";
+  t210.innerHTML =
+    "Memory game where you must follow the sequence of illuminated colors to level up. You can select the background theme among 5 different colors.";
 
   let t220 = document.getElementById("t220");
-  t220.innerHTML =
-    "Webshop Smart Wallet";
+  t220.innerHTML = "Webshop Smart Wallet";
 
   let t230 = document.getElementById("t230");
   t230.innerHTML =
     "A responsive website to sell crypto wallets. You can open an account and place orders from the shopping cart. It uses an SQL database and PHP with MVC. Developed within the UOC’s academic curriculum.";
 
   let t240 = document.getElementById("t240");
-  t240.innerHTML = "A multilanguage website for a start-up. Developed with Laravel 6. It's a part of the academic curriculum of the UOC.";
+  t240.innerHTML =
+    "A multilanguage website for a start-up. Developed with Laravel 6. It's a part of the academic curriculum of the UOC.";
 
   let t250 = document.getElementById("t250");
   t250.innerHTML = "Symfony 5 Course (PHP Master)";
 
-  let t260 = document.getElementById(
-    "t260"
-  );
-  t260.innerHTML =
-    "Angular 8 Course";
+  let t260 = document.getElementById("t260");
+  t260.innerHTML = "Angular 8 Course";
 
-  let t270 = document.getElementById(
-    "t270"
-  );
-  t270.innerHTML =
-    "Vue.js Course";
+  let t270 = document.getElementById("t270");
+  t270.innerHTML = "Vue.js Course";
 
   let t280 = document.getElementById("t280");
   t280.innerHTML = "Laravel 6 Course";
 
   let t290 = document.getElementById("t290");
-  t290.innerHTML =
-    "From jQuery to JavaScript Course";
+  t290.innerHTML = "From jQuery to JavaScript Course";
 
   let t300 = document.getElementById("t300");
-  t300.innerHTML =
-    "Scrum Course";
+  t300.innerHTML = "Scrum Course";
 
   let t310 = document.getElementById("t310");
   t310.innerHTML = "EcmaScript 6+ Course";
@@ -183,12 +168,10 @@ function english() {
   t320.innerHTML = "Git and Github Professional Course";
 
   let t330 = document.getElementById("t330");
-  t330.innerHTML =
-    "Boostrap 4 course";
+  t330.innerHTML = "Boostrap 4 course";
 
   let t340 = document.getElementById("t340");
-  t340.innerHTML =
-    "CSS Grid Layout Course";
+  t340.innerHTML = "CSS Grid Layout Course";
 
   let t350 = document.getElementById("t350");
   t350.innerHTML = "PHP introduction course";
@@ -197,12 +180,10 @@ function english() {
   t360.innerHTML = "Basic course of Java SE";
 
   let t370 = document.getElementById("t370");
-  t370.innerHTML =
-    "WordPress Course";
+  t370.innerHTML = "WordPress Course";
 
   let t380 = document.getElementById("t380");
-  t380.innerHTML =
-    "Course of creation of themes and plugins for WordPress";
+  t380.innerHTML = "Creation of themes and plugins for WordPress";
 
   let t390 = document.getElementById("t390");
   t390.innerHTML = "Javascript Fundamentals Course";
@@ -211,73 +192,71 @@ function english() {
   t400.innerHTML = "Data Bases Fundamentals course";
 
   let t410 = document.getElementById("t410");
-  t410.innerHTML =
-    "CSS Preprocessors Course";
+  t410.innerHTML = "CSS Preprocessors Course";
 }
 
 // spanish translation -------------------------
 // ---------------------------------------------
 function spanish() {
-
   let welcome = document.getElementsByClassName("t_welcome");
   for (let item of welcome) {
     console.log(item.id);
     item.innerHTML = "Bienvenido/as";
-  };
+  }
 
   let portfolio = document.getElementsByClassName("t_portfolio");
   for (let item of portfolio) {
     console.log(item.id);
     item.innerHTML = "Portafolio";
-  };
+  }
 
   let home = document.getElementsByClassName("t_home");
   for (let item of home) {
     console.log(item.id);
     item.innerHTML = "Inicio";
-  };
+  }
 
   let contact = document.getElementsByClassName("t_contact");
   for (let item of contact) {
     console.log(item.id);
     item.innerHTML = "Contacto";
-  };
+  }
 
   let technologies = document.getElementsByClassName("t_technologies");
   for (let item of technologies) {
     console.log(item.id);
     item.innerHTML = "Tecnologías";
-  };
+  }
 
   let account = document.getElementsByClassName("t_account");
   for (let item of account) {
     console.log(item.id);
     item.innerHTML = "En mi cuenta de ";
-  };
+  }
 
   let find = document.getElementsByClassName("t_find");
   for (let item of find) {
     console.log(item.id);
     item.innerHTML = "encontrarás el código de esta web.";
-  };
+  }
 
   let visit = document.getElementsByClassName("t_visit");
   for (let item of visit) {
     console.log(item.id);
     item.innerHTML = "Visitar el sitio web";
-  };
+  }
 
   let course = document.getElementsByClassName("t_course");
   for (let item of course) {
     console.log(item.id);
     item.innerHTML = "Curso realizado en la plataforma educativa ";
-  };
+  }
 
   let certificates = document.getElementsByClassName("t_certificates");
   for (let item of certificates) {
     console.log(item.id);
-    item.innerHTML = "Certificados y Diplomas";
-  };
+    item.innerHTML = "Certificados";
+  }
 
   // Ids -------------------------------------
   // -----------------------------------------
@@ -285,16 +264,20 @@ function spanish() {
   t10.innerHTML = "Fernando Gomez <br> Desarrollador Web";
 
   let t40 = document.getElementById("t40");
-  t40.innerHTML = "En ésta página web podéis encontrar una selección de proyectos personales. También información académica sobre mí y datos de contacto.";
+  t40.innerHTML =
+    "En ésta página web podéis encontrar una selección de proyectos personales. También información académica sobre mí y datos de contacto.";
 
   let t50 = document.getElementById("t50");
-  t50.innerHTML = "Actualmente me encuentro cursando el Ciclo Superior de FP en Desarrollo Web en la UOC (Universitat Oberta de Catalunya).";
+  t50.innerHTML =
+    "Actualmente me encuentro cursando el Ciclo Superior de FP en Desarrollo Web en la UOC (Universitat Oberta de Catalunya).";
 
   let t60 = document.getElementById("t60");
-  t60.innerHTML = "También me desempeño como desarrollador web freelance para pequeñas empresas y particulares.";
+  t60.innerHTML =
+    "También me desempeño como desarrollador web freelance para pequeñas empresas y particulares.";
 
   let t70 = document.getElementById("t70");
-  t70.innerHTML = "Los lenguajes y frameworks con los que trabajo principalmente son: ";
+  t70.innerHTML =
+    "Los lenguajes y frameworks con los que trabajo principalmente son: ";
 
   let t80 = document.getElementById("t80");
   t80.innerHTML = "¿Creamos algo juntos?";
@@ -303,18 +286,16 @@ function spanish() {
   t90.innerHTML = "Puedes contactarme a través de los siguientes links";
 
   let t100 = document.getElementById("t100");
-  t100.innerHTML = "Sitio web para seguir la cotización de las principales criptomonedas. Utiliza la API de CoinCap para obtener todos los datos necesarios, además de mostrar una gráfica de la evolución del precio en las últimas 24 horas.";
+  t100.innerHTML =
+    "Sitio web para seguir la cotización de las principales criptomonedas. Utiliza la API de CoinCap para obtener todos los datos necesarios, además de mostrar una gráfica de la evolución del precio en las últimas 24 horas.";
 
-  let t110 = document.getElementById(
-    "t110"
-  );
+  let t110 = document.getElementById("t110");
   t110.innerHTML =
     "Tienda en línea desarrollada con Angular 8. Utilizando componentes, módulos y rutas. Conectada a la API REST de Platzi. Maquetada con Material Design y alojada en Firebase.";
 
-  let t120 = document.getElementById(
-    "t120"
-  );
-  t120.innerHTML = "Un CMS desarrollado íntegramente con Laravel 6. Utiliza una base de datos SQL. Se pueden gestionar completamente los usuarios, artículos de prensa y permisos de edición, publicación o eliminación de noticias. Desarrollado dentro del currículum académico de la UOC.";
+  let t120 = document.getElementById("t120");
+  t120.innerHTML =
+    "Un CMS desarrollado íntegramente con Laravel 6. Utiliza una base de datos SQL. Se pueden gestionar completamente los usuarios, artículos de prensa y permisos de edición, publicación o eliminación de noticias. Desarrollado dentro del currículum académico de la UOC.";
 
   let t130 = document.getElementById("t130");
   t130.innerHTML =
@@ -325,11 +306,10 @@ function spanish() {
     "Este sitio utiliza XMLHttpRequest() para obtener datos aleatorios de usuarios y películas. Se utiliza Vanilla JS únicamente y forma parte del curso de jQuery a JavaScript de Platzi.";
 
   let t150 = document.getElementById("t150");
-  t150.innerHTML = "Una red social desarrollada con Laravel 6. Los usuarios pueden comentar, dar likes y estrellas a los productos. Pueden hacer su lista de favoritos. El administrador puede bloquear usuarios y añadir productos y categorías. Desarrollado dentro del currículum académico de la UOC.";
+  t150.innerHTML =
+    "Una red social desarrollada con Laravel 6. Los usuarios pueden comentar, dar likes y estrellas a los productos. Pueden hacer su lista de favoritos. El administrador puede bloquear usuarios y añadir productos y categorías. Desarrollado dentro del currículum académico de la UOC.";
 
-  let t160 = document.getElementById(
-    "t160"
-  );
+  let t160 = document.getElementById("t160");
   t160.innerHTML =
     "Diseño de un blog con resposive design utilizando jQuery. Cuenta con varias funcionalidades como un reloj, inicio de sesión, selector de tema, slider, botón de back-to-top y los posts son generados desde JS.";
 
@@ -337,62 +317,48 @@ function spanish() {
   t170.innerHTML =
     "Responsive website del Instituto Nacional de Riesgos Laborales. Desarrollado dentro del currículum académico de la Universitat Oberta de Catalunya (UOC). Se pueden registrar partes de accidente, editarlos y consultarlos. Control de usuarios y sesiones. Utiliza una base de datos SQL.";
 
-  let t180 = document.getElementById(
-    "t180"
-  );
+  let t180 = document.getElementById("t180");
   t180.innerHTML = "Layout de Instagram";
 
-  let t190 = document.getElementById(
-    "t190"
-  );
+  let t190 = document.getElementById("t190");
   t190.innerHTML =
     "Uso de CSS Grid para replicar el layout de la página de Instagram.";
 
-  let t200 = document.getElementById(
-    "t200"
-  );
-  t200.innerHTML =
-    "Simón dice con colores";
+  let t200 = document.getElementById("t200");
+  t200.innerHTML = "Simón dice con colores";
 
   let t210 = document.getElementById("t210");
-  t210.innerHTML = "Juego de memorización donde hay que seguir la secuencia de colores iluminados para ir pasando de nivel. Se puede seleccionar el tema preferido entre 5 colores diferentes.";
+  t210.innerHTML =
+    "Juego de memorización donde hay que seguir la secuencia de colores iluminados para ir pasando de nivel. Se puede seleccionar el tema preferido entre 5 colores diferentes.";
 
   let t220 = document.getElementById("t220");
-  t220.innerHTML =
-    "Tienda online Smart Wallet";
+  t220.innerHTML = "Tienda online Smart Wallet";
 
   let t230 = document.getElementById("t230");
   t230.innerHTML =
     "Un sitio web responsive para vender monederos de criptomonedas. Se puede abrir una cuenta y hacer los pedidos desde el carrito de la compra. Utiliza una base de datos SQL y PHP con MVC. Desarrollado dentro del currículum académico de la UOC.";
 
   let t240 = document.getElementById("t240");
-  t240.innerHTML = "Un sitio web multidioma para una start-up. Desarrollado con Laravel 6. Forma parte del currículum académico de la UOC.";
+  t240.innerHTML =
+    "Un sitio web multidioma para una start-up. Desarrollado con Laravel 6. Forma parte del currículum académico de la UOC.";
 
   let t250 = document.getElementById("t250");
   t250.innerHTML = "Curso de Symfony 5 (Master en PHP)";
 
-  let t260 = document.getElementById(
-    "t260"
-  );
-  t260.innerHTML =
-    "Curso de Angular 8";
+  let t260 = document.getElementById("t260");
+  t260.innerHTML = "Curso de Angular 8";
 
-  let t270 = document.getElementById(
-    "t270"
-  );
-  t270.innerHTML =
-    "Curso de Vue.js";
+  let t270 = document.getElementById("t270");
+  t270.innerHTML = "Curso de Vue.js";
 
   let t280 = document.getElementById("t280");
   t280.innerHTML = "Curso de Laravel 6";
 
   let t290 = document.getElementById("t290");
-  t290.innerHTML =
-    "Curso de jQuery a JavaScript";
+  t290.innerHTML = "Curso de jQuery a JavaScript";
 
   let t300 = document.getElementById("t300");
-  t300.innerHTML =
-    "Curso de Scrum";
+  t300.innerHTML = "Curso de Scrum";
 
   let t310 = document.getElementById("t310");
   t310.innerHTML = "Curso de EcmaScript 6+";
@@ -401,12 +367,10 @@ function spanish() {
   t320.innerHTML = "Curso Profesional de Git y Github";
 
   let t330 = document.getElementById("t330");
-  t330.innerHTML =
-    "Curso de Bootstrap 4";
+  t330.innerHTML = "Curso de Bootstrap 4";
 
   let t340 = document.getElementById("t340");
-  t340.innerHTML =
-    "Curso de CCS Grid";
+  t340.innerHTML = "Curso de CCS Grid";
 
   let t350 = document.getElementById("t350");
   t350.innerHTML = "Curso Introducción a PHP";
@@ -415,12 +379,10 @@ function spanish() {
   t360.innerHTML = "Curso Básico de JAVA SE";
 
   let t370 = document.getElementById("t370");
-  t370.innerHTML =
-    "Curso de WordPress";
+  t370.innerHTML = "Curso de WordPress";
 
   let t380 = document.getElementById("t380");
-  t380.innerHTML =
-    "Curso de Creación de temas y plugins para WordPress";
+  t380.innerHTML = "Creación de temas y plugins para WordPress";
 
   let t390 = document.getElementById("t390");
   t390.innerHTML = "Curso Fundamentos de Javascript";
@@ -429,73 +391,71 @@ function spanish() {
   t400.innerHTML = "Curso Fundamentos de Bases de Datos";
 
   let t410 = document.getElementById("t410");
-  t410.innerHTML =
-    "Curso de Preprocesadores CSS";
+  t410.innerHTML = "Curso de Preprocesadores CSS";
 }
 
 // french translation --------------------------
 // ---------------------------------------------
 function french() {
-
   let welcome = document.getElementsByClassName("t_welcome");
   for (let item of welcome) {
     console.log(item.id);
     item.innerHTML = "Bienvenue";
-  };
+  }
 
   let portfolio = document.getElementsByClassName("t_portfolio");
   for (let item of portfolio) {
     console.log(item.id);
     item.innerHTML = "Portfolio";
-  };
+  }
 
   let home = document.getElementsByClassName("t_home");
   for (let item of home) {
     console.log(item.id);
     item.innerHTML = "Accueil";
-  };
+  }
 
   let contact = document.getElementsByClassName("t_contact");
   for (let item of contact) {
     console.log(item.id);
     item.innerHTML = "Contact";
-  };
+  }
 
   let technologies = document.getElementsByClassName("t_technologies");
   for (let item of technologies) {
     console.log(item.id);
     item.innerHTML = "Technologies";
-  };
+  }
 
   let account = document.getElementsByClassName("t_account");
   for (let item of account) {
     console.log(item.id);
     item.innerHTML = "Dans mon compte de ";
-  };
+  }
 
   let find = document.getElementsByClassName("t_find");
   for (let item of find) {
     console.log(item.id);
     item.innerHTML = "vous trouverez le code de ce site.";
-  };
+  }
 
   let visit = document.getElementsByClassName("t_visit");
   for (let item of visit) {
     console.log(item.id);
     item.innerHTML = "Visiter le website";
-  };
+  }
 
   let course = document.getElementsByClassName("t_course");
   for (let item of course) {
     console.log(item.id);
     item.innerHTML = "Cours suivi dans la plate-forme éducative ";
-  };
+  }
 
   let certificates = document.getElementsByClassName("t_certificates");
   for (let item of certificates) {
     console.log(item.id);
     item.innerHTML = "Certificats";
-  };
+  }
 
   // Ids -------------------------------------
   // -----------------------------------------
@@ -503,16 +463,20 @@ function french() {
   t10.innerHTML = "Fernando Gomez <br> Web Developer";
 
   let t40 = document.getElementById("t40");
-  t40.innerHTML = "Sur ce site, vous trouverez une sélection de mes projets personnels. Des informations académiques sur moi et des liens de contact.";
+  t40.innerHTML =
+    "Sur ce site, vous trouverez une sélection de mes projets personnels. Des informations académiques sur moi et des liens de contact.";
 
   let t50 = document.getElementById("t50");
-  t50.innerHTML = "J'étudie actuellement le Cycle Supérieur de FP en Développement Web à l\'UOC (Université Ouverte de Catalogne).";
+  t50.innerHTML =
+    "J'étudie actuellement le Cycle Supérieur de FP en Développement Web à l'UOC (Université Ouverte de Catalogne).";
 
   let t60 = document.getElementById("t60");
-  t60.innerHTML = "Je travaille également en tant que développeur web indépendant pour des petites entreprises et particuliers.";
+  t60.innerHTML =
+    "Je travaille également en tant que développeur web indépendant pour des petites entreprises et particuliers.";
 
   let t70 = document.getElementById("t70");
-  t70.innerHTML = "Les langages et frameworks avec lesquels je travaille principalement sont: ";
+  t70.innerHTML =
+    "Les langages et frameworks avec lesquels je travaille principalement sont: ";
 
   let t80 = document.getElementById("t80");
   t80.innerHTML = "Créons-nous quelque chose ensemble?";
@@ -521,18 +485,16 @@ function french() {
   t90.innerHTML = "Vous pouvez me contacter via les liens suivants";
 
   let t100 = document.getElementById("t100");
-  t100.innerHTML = "Site web pour suivre le cours des principales crypto-monnaies. Il utilise l’API de CoinCap pour obtenir toutes les données nécessaires et afficher aussi un graphique de l’évolution des prix au cours des dernières 24 heures.";
+  t100.innerHTML =
+    "Site web pour suivre le cours des principales crypto-monnaies. Il utilise l’API de CoinCap pour obtenir toutes les données nécessaires et afficher aussi un graphique de l’évolution des prix au cours des dernières 24 heures.";
 
-  let t110 = document.getElementById(
-    "t110"
-  );
+  let t110 = document.getElementById("t110");
   t110.innerHTML =
     "Boutique en ligne développée avec Angular 8. Utilisation de composants, modules et routes. Connectée à l'API REST de Platzi. Mise en page avec Material Design et hébergée chez Firebase.";
 
-  let t120 = document.getElementById(
-    "t120"
-  );
-  t120.innerHTML = "Un CMS développé entièrement avec Laravel 6. Utilise une base de données SQL. Les utilisateurs, les articles de presse et les autorisations d’édition, de publication ou d’effacement de nouvelles peuvent être entièrement gérés. Développé dans le cadre du programme d’études de l’UOC.";
+  let t120 = document.getElementById("t120");
+  t120.innerHTML =
+    "Un CMS développé entièrement avec Laravel 6. Utilise une base de données SQL. Les utilisateurs, les articles de presse et les autorisations d’édition, de publication ou d’effacement de nouvelles peuvent être entièrement gérés. Développé dans le cadre du programme d’études de l’UOC.";
 
   let t130 = document.getElementById("t130");
   t130.innerHTML =
@@ -543,11 +505,10 @@ function french() {
     "Ce site utilise XMLHttpRequest() pour obtenir des données aléatoires d'utilisateurs et de vidéos. Pour ce projet on utilise uniquement Vanilla JS et il fait partie du cours  jQuery à JavaScript de Platzi.";
 
   let t150 = document.getElementById("t150");
-  t150.innerHTML = "Un réseau social développé avec Laravel 6. Les utilisateurs peuvent commenter, donner des likes et des étoiles aux produits. Ils peuvent faire leur liste de favoris. L’administrateur peut bloquer les utilisateurs et ajouter des produits et des catégories. Développé dans le cadre du programme d'études de l’UOC.";
+  t150.innerHTML =
+    "Un réseau social développé avec Laravel 6. Les utilisateurs peuvent commenter, donner des likes et des étoiles aux produits. Ils peuvent faire leur liste de favoris. L’administrateur peut bloquer les utilisateurs et ajouter des produits et des catégories. Développé dans le cadre du programme d'études de l’UOC.";
 
-  let t160 = document.getElementById(
-    "t160"
-  );
+  let t160 = document.getElementById("t160");
   t160.innerHTML =
     "Conception d'un blog avec un design réactif utilisant jQuery. Il possède plusieurs fonctionnalités telles qu'une horloge, un système de log in, un sélecteur de thème, un slider et un bouton de \"back-to-top\". Les publications sont générées à partir du fichier JS.";
 
@@ -555,62 +516,48 @@ function french() {
   t170.innerHTML =
     "Site web de l’Institut national des risques professionnels. Élaboré dans le cadre du programme d’études de l’Université Oberta de Catalogne (UOC). Vous pouvez enregistrer des rapports d’accidents, les éditer et les consulter. Contrôle des utilisateurs et sessions.Il utilise une base de données SQL.";
 
-  let t180 = document.getElementById(
-    "t180"
-  );
+  let t180 = document.getElementById("t180");
   t180.innerHTML = "Layout de type Instagram";
 
-  let t190 = document.getElementById(
-    "t190"
-  );
+  let t190 = document.getElementById("t190");
   t190.innerHTML =
     "Utilisation de CSS Grid pour répliquer la mise en page d'Instagram.";
 
-  let t200 = document.getElementById(
-    "t200"
-  );
-  t200.innerHTML =
-    "SIMON SAYS avec des couleurs";
+  let t200 = document.getElementById("t200");
+  t200.innerHTML = "SIMON SAYS avec des couleurs";
 
   let t210 = document.getElementById("t210");
-  t210.innerHTML = "Un jeu de mémoire où vous devez suivre la séquence de couleurs illuminées pour monter de niveau. Vous pouvez sélectionner votre thème préféré parmi 5 couleurs différentes.";
+  t210.innerHTML =
+    "Un jeu de mémoire où vous devez suivre la séquence de couleurs illuminées pour monter de niveau. Vous pouvez sélectionner votre thème préféré parmi 5 couleurs différentes.";
 
   let t220 = document.getElementById("t220");
-  t220.innerHTML =
-    "Boutique en ligne Smart Wallet";
+  t220.innerHTML = "Boutique en ligne Smart Wallet";
 
   let t230 = document.getElementById("t230");
   t230.innerHTML =
     "Un site web responsive pour vendre des portefeuilles de crypto-monnaie. Vous pouvez ouvrir un compte et commander à partir du panier. Il utilise une base de données SQL et PHP avec MVC. Développé dans le cadre du programme d’études de l’UOC.";
 
   let t240 = document.getElementById("t240");
-  t240.innerHTML = "Un site Web multilingue pour une start-up. Développé avec Laravel 6. Il fait partie du cursus académique de l'UOC.";
+  t240.innerHTML =
+    "Un site Web multilingue pour une start-up. Développé avec Laravel 6. Il fait partie du cursus académique de l'UOC.";
 
   let t250 = document.getElementById("t250");
   t250.innerHTML = "Cours de Symfony 5 (Master en PHP)";
 
-  let t260 = document.getElementById(
-    "t260"
-  );
-  t260.innerHTML =
-    "Cours de Angular 8";
+  let t260 = document.getElementById("t260");
+  t260.innerHTML = "Cours de Angular 8";
 
-  let t270 = document.getElementById(
-    "t270"
-  );
-  t270.innerHTML =
-    "Cours de Vue.js";
+  let t270 = document.getElementById("t270");
+  t270.innerHTML = "Cours de Vue.js";
 
   let t280 = document.getElementById("t280");
   t280.innerHTML = "Cours de Laravel 6";
 
   let t290 = document.getElementById("t290");
-  t290.innerHTML =
-    "Cours de jQuery à JavaScript";
+  t290.innerHTML = "Cours de jQuery à JavaScript";
 
   let t300 = document.getElementById("t300");
-  t300.innerHTML =
-    "Cours de Scrum";
+  t300.innerHTML = "Cours de Scrum";
 
   let t310 = document.getElementById("t310");
   t310.innerHTML = "Cours de EcmaScript 6+";
@@ -619,12 +566,10 @@ function french() {
   t320.innerHTML = "Cours professionnel de Git et Github";
 
   let t330 = document.getElementById("t330");
-  t330.innerHTML =
-    "Cours de Bootstrap 4";
+  t330.innerHTML = "Cours de Bootstrap 4";
 
   let t340 = document.getElementById("t340");
-  t340.innerHTML =
-    "Cours de CCS Grid Design";
+  t340.innerHTML = "Cours de CCS Grid Design";
 
   let t350 = document.getElementById("t350");
   t350.innerHTML = "Cours d'introduction à PHP";
@@ -633,12 +578,10 @@ function french() {
   t360.innerHTML = "Cours les bases de JAVA SE";
 
   let t370 = document.getElementById("t370");
-  t370.innerHTML =
-    "Cours de WordPress";
+  t370.innerHTML = "Cours de WordPress";
 
   let t380 = document.getElementById("t380");
-  t380.innerHTML =
-    "Cours de création de thèmes et plugins pour WordPress";
+  t380.innerHTML = "Création de thèmes et plugins pour WordPress";
 
   let t390 = document.getElementById("t390");
   t390.innerHTML = "Cours Fondements de Javascript";
@@ -647,6 +590,5 @@ function french() {
   t400.innerHTML = "Cours d’initiation aux bases de données";
 
   let t410 = document.getElementById("t410");
-  t410.innerHTML =
-    "Cours de Préprocesseurs CSS";
+  t410.innerHTML = "Cours de Préprocesseurs CSS";
 }
