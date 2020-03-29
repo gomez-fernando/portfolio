@@ -193,10 +193,14 @@ function english() {
 
   let t410 = document.getElementById("t410");
   t410.innerHTML = "CSS Preprocessors Course";
+
+  let t420 = document.getElementById("t420");
+  t420.innerHTML =
+    "An application to concentrate all the news that interests you, as well as your favorite blogs. Save the RSS you want to follow and you will always have the latest information updated. You can create your account and manage all the details. Add your lists and filter them by category or country.";
 }
 
-// spanish translation -------------------------
-// ---------------------------------------------
+// spanish translation -----------------------------------------------------------------------------------------
+// -------------------------------------------------------------------------------------------------------------
 function spanish() {
   let welcome = document.getElementsByClassName("t_welcome");
   for (let item of welcome) {
@@ -392,10 +396,14 @@ function spanish() {
 
   let t410 = document.getElementById("t410");
   t410.innerHTML = "Curso de Preprocesadores CSS";
+
+  let t420 = document.getElementById("t420");
+  t420.innerHTML =
+    "Una aplicación donde concentrar todas las noticias que te interesan, así como tus blogs favoritos. Guarda el RSS que quieres seguir y tendrás siempre actualizadas las últimas informaciones. Puedes crear tu cuenta y gestionar todos los detalles. Añade tus listas y fíltralas por categoría o país.";
 }
 
-// french translation --------------------------
-// ---------------------------------------------
+// french translation -------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------
 function french() {
   let welcome = document.getElementsByClassName("t_welcome");
   for (let item of welcome) {
@@ -591,4 +599,8 @@ function french() {
 
   let t410 = document.getElementById("t410");
   t410.innerHTML = "Cours de Préprocesseurs CSS";
+
+  let t420 = document.getElementById("t420");
+  t420.innerHTML =
+    "Une application pour concentrer toutes les actualités qui vous intéressent, ainsi que vos blogs préférés. Enregistrez le RSS que vous souhaitez suivre et vous aurez toujours les dernières informations mises à jour. Vous pouvez créer votre compte et gérer tous les détails. Ajoutez vos listes et filtrez-les par catégorie ou par pays.";
 }
