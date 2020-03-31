@@ -617,11 +617,11 @@ function french() {
   let t420 = document.getElementById("t420");
   t420.innerHTML =
     "Une application pour concentrer toutes les actualités qui vous intéressent, ainsi que vos blogs préférés. Enregistrez le RSS que vous souhaitez suivre et vous aurez toujours les dernières informations mises à jour. Vous pouvez créer votre compte et gérer tous les détails. Ajoutez vos listes et filtrez-les par catégorie ou par pays.";
-  
-    let t430 = document.getElementById("t430");
+
+  let t430 = document.getElementById("t430");
   t430.innerHTML = "3º Rencontre de la Vie Rurale";
 
   let t440 = document.getElementById("t440");
   t440.innerHTML =
-    "Site Web d'une supposée réunion sur l'environnement et la vie rurale qui se tiendra à Callús (Catalogne). Vous pouvez vous abonner à la newsletter grâce aux services de Sendinblue.";
+    "Site web d'une supposée réunion sur l'environnement et la vie rurale qui se tiendra à Callús (Catalogne). Vous pouvez vous abonner à la newsletter grâce aux services de Sendinblue.";
 }
