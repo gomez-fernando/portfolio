@@ -197,6 +197,13 @@ function english() {
   let t420 = document.getElementById("t420");
   t420.innerHTML =
     "An application to concentrate all the news that interests you, as well as your favorite blogs. Save the RSS you want to follow and you will always have the latest information updated. You can create your account and manage all the details. Add your lists and filter them by category or country.";
+
+  let t430 = document.getElementById("t430");
+  t430.innerHTML = "3º Meeting Rural Life";
+
+  let t440 = document.getElementById("t440");
+  t440.innerHTML =
+    "Website for a supposed meeting about the environment and rural life to be held in Callús (Catalonia). You can subscribe to the newsletter thanks to the services of Sendinblue.";
 }
 
 // spanish translation -----------------------------------------------------------------------------------------
@@ -400,6 +407,13 @@ function spanish() {
   let t420 = document.getElementById("t420");
   t420.innerHTML =
     "Una aplicación donde concentrar todas las noticias que te interesan, así como tus blogs favoritos. Guarda el RSS que quieres seguir y tendrás siempre actualizadas las últimas informaciones. Puedes crear tu cuenta y gestionar todos los detalles. Añade tus listas y fíltralas por categoría o país.";
+
+  let t430 = document.getElementById("t430");
+  t430.innerHTML = "3º Encuentro Vida Rural";
+
+  let t440 = document.getElementById("t440");
+  t440.innerHTML =
+    "Página web para un supuesto encuentro sobre medio ambiente y vida rural a celebrarse en Callús (Cataluña). Se puede suscribir a la newsletter gracias a los servicios de Sendinblue.";
 }
 
 // french translation -------------------------------------------------------------------------------------------
@@ -603,4 +617,11 @@ function french() {
   let t420 = document.getElementById("t420");
   t420.innerHTML =
     "Une application pour concentrer toutes les actualités qui vous intéressent, ainsi que vos blogs préférés. Enregistrez le RSS que vous souhaitez suivre et vous aurez toujours les dernières informations mises à jour. Vous pouvez créer votre compte et gérer tous les détails. Ajoutez vos listes et filtrez-les par catégorie ou par pays.";
+  
+    let t430 = document.getElementById("t430");
+  t430.innerHTML = "3º Rencontre de la Vie Rurale";
+
+  let t440 = document.getElementById("t440");
+  t440.innerHTML =
+    "Site Web d'une supposée réunion sur l'environnement et la vie rurale qui se tiendra à Callús (Catalogne). Vous pouvez vous abonner à la newsletter grâce aux services de Sendinblue.";
 }
