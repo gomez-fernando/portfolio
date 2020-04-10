@@ -87,7 +87,7 @@ img.bandera {
   position: fixed;
   display: none;
   background: rgba(0, 0, 0, 0.2);
-  color: #fff;
+  color: #03c4eb;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
   border-radius: 2px;
@@ -96,11 +96,11 @@ img.bandera {
   transition: background 0.5s;
 }
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .back-to-top {
     bottom: 15px;
   }
-}
+} */
 
 .back-to-top:focus {
   background: rgba(0, 0, 0, 0.2);

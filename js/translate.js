@@ -99,10 +99,6 @@ function english() {
   t120.innerHTML =
     "A CMS developed entirely with Laravel 6. It uses an SQL database. Users, press articles and editorial, publication or news deletion permissions can be fully managed. Developed within the UOC’s academic curriculum.";
 
-  let t130 = document.getElementById("t130");
-  t130.innerHTML =
-    "A task control application. You can open an account and manage your own tasks (CRUD: create, query. edit and delete).";
-
   let t140 = document.getElementById("t140");
   t140.innerHTML =
     "This site uses XMLHttpRequest() to obtain random data about users and movies. I use just Vanilla JS and this site is developed within the jQuery to JavaScript course of Platzi.";
@@ -204,6 +200,10 @@ function english() {
   let t440 = document.getElementById("t440");
   t440.innerHTML =
     "Website for a supposed meeting about the environment and rural life to be held in Callús (Catalonia). You can subscribe to the newsletter thanks to the services of Sendinblue.";
+
+  let t450 = document.getElementById("t450");
+  t450.innerHTML =
+    "A regional news page for the province of Malaga. Developed with WordPress within the UOC's academic curriculum. Responsive design.";
 }
 
 // spanish translation -----------------------------------------------------------------------------------------
@@ -308,10 +308,6 @@ function spanish() {
   t120.innerHTML =
     "Un CMS desarrollado íntegramente con Laravel 6. Utiliza una base de datos SQL. Se pueden gestionar completamente los usuarios, artículos de prensa y permisos de edición, publicación o eliminación de noticias. Desarrollado dentro del currículum académico de la UOC.";
 
-  let t130 = document.getElementById("t130");
-  t130.innerHTML =
-    "Una aplicación de control de tareas. Se puede abrir una cuenta y gestionar las tareas propias (CRUD: crear, consultar, editar y eliminar).";
-
   let t140 = document.getElementById("t140");
   t140.innerHTML =
     "Este sitio utiliza XMLHttpRequest() para obtener datos aleatorios de usuarios y películas. Se utiliza Vanilla JS únicamente y forma parte del curso de jQuery a JavaScript de Platzi.";
@@ -414,6 +410,10 @@ function spanish() {
   let t440 = document.getElementById("t440");
   t440.innerHTML =
     "Página web para un supuesto encuentro sobre medio ambiente y vida rural a celebrarse en Callús (Cataluña). Se puede suscribir a la newsletter gracias a los servicios de Sendinblue.";
+
+  let t450 = document.getElementById("t450");
+  t450.innerHTML =
+    "Una página de noticias regionales para la provincia de Málaga. Desarrollado con WordPress dentro del currículum académico de la UOC. Diseño responsive.";
 }
 
 // french translation -------------------------------------------------------------------------------------------
@@ -518,10 +518,6 @@ function french() {
   t120.innerHTML =
     "Un CMS développé entièrement avec Laravel 6. Utilise une base de données SQL. Les utilisateurs, les articles de presse et les autorisations d’édition, de publication ou d’effacement de nouvelles peuvent être entièrement gérés. Développé dans le cadre du programme d’études de l’UOC.";
 
-  let t130 = document.getElementById("t130");
-  t130.innerHTML =
-    "Une application de contrôle des tâches. Vous pouvez ouvrir un compte et gérer vos propres tâches (CRUD: créer, consulter, éditer et supprimer).";
-
   let t140 = document.getElementById("t140");
   t140.innerHTML =
     "Ce site utilise XMLHttpRequest() pour obtenir des données aléatoires d'utilisateurs et de vidéos. Pour ce projet on utilise uniquement Vanilla JS et il fait partie du cours  jQuery à JavaScript de Platzi.";
@@ -624,4 +620,8 @@ function french() {
   let t440 = document.getElementById("t440");
   t440.innerHTML =
     "Site web d'une supposée réunion sur l'environnement et la vie rurale qui se tiendra à Callús (Catalogne). Vous pouvez vous abonner à la newsletter grâce aux services de Sendinblue.";
+  
+    let t450 = document.getElementById("t450");
+  t450.innerHTML =
+    "Une page de nouvelles régionales pour la province de Malaga. Développé avec WordPress dans le programme académique de l'UOC. Responsive design.";
 }
