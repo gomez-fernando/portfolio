@@ -623,5 +623,5 @@ function french() {
   
     let t450 = document.getElementById("t450");
   t450.innerHTML =
-    "Une page de nouvelles régionales pour la province de Malaga. Développé avec WordPress dans le programme académique de l'UOC. Responsive design.";
+    "Un site de nouvelles régionales pour la province de Malaga. Développé avec WordPress dans le programme académique de l'UOC. Responsive design.";
 }
