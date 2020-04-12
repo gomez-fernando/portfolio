@@ -79,7 +79,8 @@ function english() {
     "I also perform as a freelance web developer for little enterprises and individuals.";
 
   let t70 = document.getElementById("t70");
-  t70.innerHTML = "The languages and frameworks I work with are: ";
+  t70.innerHTML =
+    "The languages, frameworks and technologies I work with are: ";
 
   let t80 = document.getElementById("t80");
   t80.innerHTML = "Do you want to create something together?";
@@ -288,7 +289,7 @@ function spanish() {
 
   let t70 = document.getElementById("t70");
   t70.innerHTML =
-    "Los lenguajes y frameworks con los que trabajo principalmente son: ";
+    "Los lenguajes, frameworks y tecnologías con los que trabajo principalmente son: ";
 
   let t80 = document.getElementById("t80");
   t80.innerHTML = "¿Creamos algo juntos?";
@@ -498,7 +499,7 @@ function french() {
 
   let t70 = document.getElementById("t70");
   t70.innerHTML =
-    "Les langages et frameworks avec lesquels je travaille principalement sont: ";
+    "Les langages, frameworks et technologies avec lesquels je travaille principalement sont: ";
 
   let t80 = document.getElementById("t80");
   t80.innerHTML = "Créons-nous quelque chose ensemble?";
@@ -620,8 +621,8 @@ function french() {
   let t440 = document.getElementById("t440");
   t440.innerHTML =
     "Site web d'une supposée réunion sur l'environnement et la vie rurale qui se tiendra à Callús (Catalogne). Vous pouvez vous abonner à la newsletter grâce aux services de Sendinblue.";
-  
-    let t450 = document.getElementById("t450");
+
+  let t450 = document.getElementById("t450");
   t450.innerHTML =
     "Un site de nouvelles régionales pour la province de Malaga. Développé avec WordPress dans le programme académique de l'UOC. Responsive design.";
 }
