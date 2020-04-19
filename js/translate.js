@@ -94,7 +94,7 @@ function english() {
 
   let t110 = document.getElementById("t110");
   t110.innerHTML =
-    "Online store developed with Angular 8. Using components, modules and routes. Connected to the Platzi's API REST. Layout with Material Design and hosted in Firebase.";
+    "Online store developed with Angular 8. Using components, modules and routes. Connected to my server's API REST at https://amazingweb.website. Layout with Material Design and hosted in Firebase.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -307,7 +307,7 @@ function spanish() {
 
   let t110 = document.getElementById("t110");
   t110.innerHTML =
-    "Tienda en línea desarrollada con Angular 8. Utilizando componentes, módulos y rutas. Conectada a la API REST de Platzi. Maquetada con Material Design y alojada en Firebase.";
+    "Tienda en línea desarrollada con Angular 8. Utilizando componentes, módulos y rutas. Conectada a la API REST de mi servidor en https://amazingweb.website. Maquetada con Material Design y alojada en Firebase.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -521,7 +521,7 @@ function french() {
 
   let t110 = document.getElementById("t110");
   t110.innerHTML =
-    "Boutique en ligne développée avec Angular 8. Utilisation de composants, modules et routes. Connectée à l'API REST de Platzi. Mise en page avec Material Design et hébergée chez Firebase.";
+    "Boutique en ligne développée avec Angular 8. Utilisation de composants, modules et routes. Connectée à l'API REST de mon serveur at https://amazingweb.website. Mise en page avec Material Design et hébergée chez Firebase.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
