@@ -205,6 +205,10 @@ function english() {
   let t450 = document.getElementById("t450");
   t450.innerHTML =
     "A regional news page for the province of Malaga. Developed with WordPress within the UOC's academic curriculum. Responsive design.";
+
+  let t460 = document.getElementById("t460");
+  t460.innerHTML =
+    "A blog about Minecraft developed with Laravel in the backend and Angular in the frontend. The backend is hosted on my server and the frontend is hosted on Firebase. You can visit the blog and you can also create your account and manage all your posts.";
 }
 
 // spanish translation -----------------------------------------------------------------------------------------
@@ -415,6 +419,10 @@ function spanish() {
   let t450 = document.getElementById("t450");
   t450.innerHTML =
     "Una página de noticias regionales para la provincia de Málaga. Desarrollado con WordPress dentro del currículum académico de la UOC. Diseño responsive.";
+
+  let t460 = document.getElementById("t460");
+  t460.innerHTML =
+    "Un blog sobre Minecraft desarrollado con Laravel en el backend y Angular en el frontend. El backend está alojado en mi servidor y el frontend está alojado en Firebase. Puedes visitar el blog y también puedes crear tu cuenta y gestionar totos tus posts.";
 }
 
 // french translation -------------------------------------------------------------------------------------------
@@ -625,4 +633,8 @@ function french() {
   let t450 = document.getElementById("t450");
   t450.innerHTML =
     "Un site de nouvelles régionales pour la province de Malaga. Développé avec WordPress dans le programme académique de l'UOC. Responsive design.";
+
+  let t460 = document.getElementById("t460");
+  t460.innerHTML =
+    "Un blog sur Minecraft développé avec Laravel dans le backend et Angular dans le frontend. Le backend est hébergé sur mon serveur et le frontend est hébergé sur Firebase. Vous pouvez visiter le blog et vous pouvez également créer votre compte et gérer tous vos posts.";
 }
