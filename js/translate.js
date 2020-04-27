@@ -94,7 +94,7 @@ function english() {
 
   let t110 = document.getElementById("t110");
   t110.innerHTML =
-    "Online store developed with Angular 8. Using components, modules and routes. Connected to my server's API REST at https://amazingweb.website. Layout with Material Design and hosted in Firebase.";
+    "Online store developed with Angular 8. Using components, modules and routes. The REST API is developed with Laravel and hosted on my server. The front end is designed with Material Design and hosted in Firebase.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -209,6 +209,10 @@ function english() {
   let t460 = document.getElementById("t460");
   t460.innerHTML =
     "A blog about Minecraft developed with Laravel in the backend and Angular in the frontend. The backend is hosted on my server and the frontend is hosted on Firebase. You can visit the blog and you can also create your account and manage all your posts.";
+
+  let t470 = document.getElementById("t470");
+  t470.innerHTML =
+    "An application to create your list of favorite YouTube videos. You can manage your favorites and play them directly in the app. The REST API is developed with Symfony and hosted on my server. The front end is developed with Angular and hosted on Firebase.";
 }
 
 // spanish translation -----------------------------------------------------------------------------------------
@@ -307,7 +311,7 @@ function spanish() {
 
   let t110 = document.getElementById("t110");
   t110.innerHTML =
-    "Tienda en línea desarrollada con Angular 8. Utilizando componentes, módulos y rutas. Conectada a la API REST de mi servidor en https://amazingweb.website. Maquetada con Material Design y alojada en Firebase.";
+    "Tienda en línea desarrollada con Angular 8. Utilizando componentes, módulos y rutas. El API REST está desarrollado con Laravel y alojado en mi servidor. El front end está maquetado con Material Design y alojado en Firebase.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -423,6 +427,10 @@ function spanish() {
   let t460 = document.getElementById("t460");
   t460.innerHTML =
     "Un blog sobre Minecraft desarrollado con Laravel en el backend y Angular en el frontend. El backend está alojado en mi servidor y el frontend está alojado en Firebase. Puedes visitar el blog y también puedes crear tu cuenta y gestionar totos tus posts.";
+
+  let t470 = document.getElementById("t470");
+  t470.innerHTML =
+    "Una aplicación para crar tu lista de vídeos favoritos de Youtube. Puedes gestionar tus favoritos y reproducirlos diretamente en la app. El API REST está desarrollado con Symfony y alojado en mi servidor. El front end está desarrollado con Angular y alojado en Firebase.";
 }
 
 // french translation -------------------------------------------------------------------------------------------
@@ -521,7 +529,7 @@ function french() {
 
   let t110 = document.getElementById("t110");
   t110.innerHTML =
-    "Boutique en ligne développée avec Angular 8. Utilisation de composants, modules et routes. Connectée à l'API REST de mon serveur at https://amazingweb.website. Mise en page avec Material Design et hébergée chez Firebase.";
+    "Boutique en ligne développée avec Angular 8. Utilisation de composants, modules et routes. L'API REST est développée avec Laravel et hébergée sur mon serveur. Le front end est conçu avec Material Design et hébergé dans Firebase.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -637,4 +645,8 @@ function french() {
   let t460 = document.getElementById("t460");
   t460.innerHTML =
     "Un blog sur Minecraft développé avec Laravel dans le backend et Angular dans le frontend. Le backend est hébergé sur mon serveur et le frontend est hébergé sur Firebase. Vous pouvez visiter le blog et vous pouvez également créer votre compte et gérer tous vos posts.";
+
+  let t470 = document.getElementById("t470");
+  t470.innerHTML =
+    "Une application pour créer votre liste de vidéos YouTube préférées. Vous pouvez gérer vos favoris et les lire directement dans l'application. L'API REST est développée avec Symfony et hébergée sur mon serveur. Le front end est développé avec Angular et hébergé sur Firebase.";
 }
