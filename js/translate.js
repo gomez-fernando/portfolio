@@ -213,6 +213,10 @@ function english() {
   let t470 = document.getElementById("t470");
   t470.innerHTML =
     "An application to create your list of favorite YouTube videos. You can manage your favorites and play them directly in the app. The REST API is developed with Symfony and hosted on my server. The front end is developed with Angular and hosted on Firebase.";
+
+  let t480 = document.getElementById("t480");
+  t480.innerHTML =
+    "A blog about tricks and curiosities of the Linux world. You can create your account and manage your posts, leave comments and like your favorites. Developed with Symfony 5.";
 }
 
 // spanish translation -----------------------------------------------------------------------------------------
@@ -431,6 +435,10 @@ function spanish() {
   let t470 = document.getElementById("t470");
   t470.innerHTML =
     "Una aplicación para crar tu lista de vídeos favoritos de Youtube. Puedes gestionar tus favoritos y reproducirlos diretamente en la app. El API REST está desarrollado con Symfony y alojado en mi servidor. El front end está desarrollado con Angular y alojado en Firebase.";
+
+  let t480 = document.getElementById("t480");
+  t480.innerHTML =
+    "Un blog sobre trucos y curiosidades del mundo Linux. Puedes crear tu cuenta y getionar tus posts, dejar comentarios y dar like a tus favoritos. Desarrollado con Symfony 5.";
 }
 
 // french translation -------------------------------------------------------------------------------------------
@@ -649,4 +657,8 @@ function french() {
   let t470 = document.getElementById("t470");
   t470.innerHTML =
     "Une application pour créer votre liste de vidéos YouTube préférées. Vous pouvez gérer vos favoris et les lire directement dans l'application. L'API REST est développée avec Symfony et hébergée sur mon serveur. Le front end est développé avec Angular et hébergé sur Firebase.";
+
+  let t480 = document.getElementById("t480");
+  t480.innerHTML =
+    "Un blog sur les astuces et les curiosités du monde Linux. Vous pouvez créer votre compte et gérer vos posts, laisser des commentaires et donner des likes à vos favoris. Développé avec Symfony 5.";
 }
