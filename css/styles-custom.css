@@ -96,12 +96,6 @@ img.bandera {
   transition: background 0.5s;
 }
 
-/* @media (max-width: 768px) {
-  .back-to-top {
-    bottom: 15px;
-  }
-} */
-
 .back-to-top:focus {
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
@@ -325,7 +319,7 @@ img.bandera {
   content: "\f105";
 }
 
-/* Nav Meu Container */
+/* Nav Menu Container */
 #nav-menu-container {
   float: right;
   margin: 5px 0;
@@ -546,10 +540,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
   font-weight: 700;
   font-size: 28px;
+  width: 158px;
+  margin: 0 auto;
 }
 
 #about .about-text {
   line-height: 26px;
+  width: 110px;
+  margin: 0 auto;
+  padding-left: 24px !important;
 }
 
 #about .about-text:last-child {
@@ -840,25 +839,17 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 90px;
   }
 }
-
-/* @media (max-width: 768px) {
-  #contact .info{
-    margin-top: 100px;
-  }
-} */
-
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
   background: #111;
-  /* padding: 30px 0; */
   color: #fff;
 }
 
 .copyright {
   justify-content: center;
-  margin: 1rem 0 0 0;
+  margin: 0;
   text-align: center;
   padding: 1rem;
 }
