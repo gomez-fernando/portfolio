@@ -1,10 +1,18 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@font-face {
+ font-family: "roboto";
+ src: url("../fonts/Roboto-Regular.ttf") format("opentype");
+ font-weight: normal;
+ font-style: normal;
+}
+
 body {
   background: #fff;
   color: #666666;
-  font-family: "Roboto", sans-serif;
+  /* font-family: "Langar", "roboto", sans-serif; */
+  font-family: "roboto", sans-serif;
 }
 
 a {
@@ -31,7 +39,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -93,18 +101,27 @@ img.bandera {
   border-radius: 2px;
   right: 15px;
   bottom: 15px;
-  transition: background 0.5s;
+  transition: background 0.5s, box-shadow 0.5s;
+  -webkit-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
+  box-shadow: 6px 6px 5px 0px rgba(0,0,0,0.75);
 }
 
 .back-to-top:focus {
   background: rgba(0, 0, 0, 0.2);
   color: #fff;
   outline: none;
+  -webkit-box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
 }
 
 .back-to-top:hover {
   background: #03c4eb;
   color: #fff;
+  -webkit-box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: -6px -6px 5px 0px rgba(0,0,0,0.75);
 }
 
 /*--------------------------------------------------------------
@@ -172,7 +189,7 @@ img.bandera {
 }
 
 #welcome .actions a {
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -225,7 +242,7 @@ img.bandera {
   margin: 0;
   padding: 6px 0;
   line-height: 1;
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
@@ -337,7 +354,7 @@ img.bandera {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: 300;
   font-size: 14px;
   outline: none;
@@ -580,7 +597,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .subscribe-btn {
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -600,7 +617,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #subscribe .btn-welcome {
-  font-family: "Roboto", sans-serif;
+  font-family: "roboto", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -865,4 +882,28 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 10px;
   margin-right: 10px;
   transform: scale(1.1);
+}
+
+@media(min-width: 1201px){
+  #portfolio .container{
+    width: 100%;
+  }
+  #certificates .container{
+    width: 100%;
+  }
+}
+@media(max-width: 991px){
+  .sep_vis{
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .sep_no_vis{
+    display: none;
+  }
+}
+@media(min-width: 992px){
+  .sep_vis{
+    display: none;
+  }
 }
