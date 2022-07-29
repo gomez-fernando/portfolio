@@ -259,6 +259,7 @@ img.bandera {
   margin: 0;
   margin-right: 25px;
   max-height: 50px;
+  border-radius: 50%;
 }
 
 @media (max-width: 768px) {
