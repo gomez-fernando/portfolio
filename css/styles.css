@@ -170,9 +170,14 @@ img.bandera {
 }
 
 #welcome h2 {
-  color: #999;
-  margin-bottom: 20px;
+  color: #dd9918d9;
+  margin: 30px 0 20px 0;
+  font-weight: 600;
 }
+
+.flags {
+  margin: 30px 0 20px 0;
+  }
 
 @media (max-width: 768px) {
   #welcome h2 {
