@@ -88,8 +88,8 @@ function english() {
   t110.innerHTML =
     "Online educational platform where students can view and download videos and materials. Tutor contact system. The application corrects the tests and delivers all the activity statistics and grades of the students.";
 
-    let servier = document.getElementById("servier");
-    servier.innerHTML = "All rights belong to Servier Laboratories and Doctaforum S.L.";
+  let servier = document.getElementById("servier");
+  servier.innerHTML = "All rights belong to Servier Laboratories and Doctaforum S.L.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -201,8 +201,16 @@ function english() {
   t480.innerHTML =
     "A blog about tricks and curiosities of the Linux world. You can create your account and manage your posts, leave comments and like your favorites. Developed with Symfony 5.";
 
-  let t490 = document.getElementById("t490");
-  t490.innerHTML =
-    "A website to discover the main heroes of the DC universe. You can use the search box to find your favorite heroes. Developed with Angular and hosted on Firebase.";
+  // let t490 = document.getElementById("t490");
+  // t490.innerHTML =
+  //   "A website to discover the main heroes of the DC universe. You can use the search box to find your favorite heroes. Developed with Angular and hosted on Firebase.";
+
+  let t500 = document.getElementById("t500");
+  t500.innerHTML =
+    "Application to manage your tasks in a fun way. Created with React using Typescript.";
+
+  let t501 = document.getElementById("t501");
+  t501.innerHTML =
+    "An application to keep track of patients (pets) and appointments. Website hosted on Netlify.";
 }
 

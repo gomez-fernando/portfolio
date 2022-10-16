@@ -84,12 +84,12 @@ function spanish() {
   t100.innerHTML =
     "Sitio web para seguir la cotización de las principales criptomonedas. Utiliza la API de CoinCap para obtener todos los datos necesarios, además de mostrar una gráfica de la evolución del precio en las últimas 24 horas.";
 
-    let t110 = document.getElementById("t110");
-    t110.innerHTML =
-      "Plataforma educativa online donde los estudiantes pueden ver y descargar los vídeos y materiales. Sistema de contacto con los tutores. La aplicación corrige los tests y entrega todas las estadísticas de actividad y calificaciones de los alumnos.";
+  let t110 = document.getElementById("t110");
+  t110.innerHTML =
+    "Plataforma educativa online donde los estudiantes pueden ver y descargar los vídeos y materiales. Sistema de contacto con los tutores. La aplicación corrige los tests y entrega todas las estadísticas de actividad y calificaciones de los alumnos.";
 
-      let servier = document.getElementById("servier");
-      servier.innerHTML = "Todos los derechos pertenecen a Laboratorios Servier y a Doctaforum S.L.";
+  let servier = document.getElementById("servier");
+  servier.innerHTML = "Todos los derechos pertenecen a Laboratorios Servier y a Doctaforum S.L.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -202,7 +202,15 @@ function spanish() {
   t480.innerHTML =
     "Un blog sobre trucos y curiosidades del mundo Linux. Puedes crear tu cuenta y getionar tus posts, dejar comentarios y dar like a tus favoritos. Desarrollado con Symfony 5.";
 
-  let t490 = document.getElementById("t490");
-  t490.innerHTML =
-    "Un sitio web para descubrir los principales héroes del universo DC. Puedes usar el buscador para encontrar tus héroes favoritos. Desarrollado con Angular y alojado en Firebase.";
+  // let t490 = document.getElementById("t490");
+  // t490.innerHTML =
+  //   "Un sitio web para descubrir los principales héroes del universo DC. Puedes usar el buscador para encontrar tus héroes favoritos. Desarrollado con Angular y alojado en Firebase.";
+
+  let t500 = document.getElementById("t500");
+  t500.innerHTML =
+    "Aplicación para gestionar tus tareas de forma divertida. Creada con React usando Typescript.";
+
+  let t501 = document.getElementById("t501");
+  t501.innerHTML =
+    "Una aplicación para llevar el control de los pacientes (mascotas) y de las citas. Web alojada en Netlify.";
 }

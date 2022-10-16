@@ -26,9 +26,9 @@ function french() {
     item.innerHTML = "Technologies";
 
     let devel = document.getElementsByClassName("t_devel");
-  for (let item of devel) {
-    item.innerHTML = "Développé pendant mon travail chez Doctaforum S.L.";
-  }
+    for (let item of devel) {
+      item.innerHTML = "Développé pendant mon travail chez Doctaforum S.L.";
+    }
   }
 
   let geicam = document.getElementsByClassName("t_geicam");
@@ -84,12 +84,12 @@ function french() {
   t100.innerHTML =
     "Site web pour suivre le cours des principales crypto-monnaies. Il utilise l’API de CoinCap pour obtenir toutes les données nécessaires et afficher aussi un graphique de l’évolution des prix au cours des dernières 24 heures.";
 
-    let t110 = document.getElementById("t110");
-    t110.innerHTML =
-      "Plateforme éducative en ligne où les étudiants peuvent visionner et télécharger des vidéos et du matériel. Système de contact avec les tuteurs. L'application corrige les tests et délivre toutes les statistiques d'activité et les notes des élèves.";
+  let t110 = document.getElementById("t110");
+  t110.innerHTML =
+    "Plateforme éducative en ligne où les étudiants peuvent visionner et télécharger des vidéos et du matériel. Système de contact avec les tuteurs. L'application corrige les tests et délivre toutes les statistiques d'activité et les notes des élèves.";
 
-      let servier = document.getElementById("servier");
-    servier.innerHTML = "Tous les droits appartiennent à Laboratoires Servier et Doctaforum S.L.";
+  let servier = document.getElementById("servier");
+  servier.innerHTML = "Tous les droits appartiennent à Laboratoires Servier et Doctaforum S.L.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -202,7 +202,15 @@ function french() {
   t480.innerHTML =
     "Un blog sur les astuces et les curiosités du monde Linux. Vous pouvez créer votre compte et gérer vos posts, laisser des commentaires et donner des likes à vos favoris. Développé avec Symfony 5.";
 
-  let t490 = document.getElementById("t490");
-  t490.innerHTML =
-    "Un site Internet pour découvrir les principaux héros de l'univers DC. Vous pouvez utiliser le moteur de recherche pour trouver vos héros préférés. Développé avec Angular et hébergé sur Firebase.";
+  // let t490 = document.getElementById("t490");
+  // t490.innerHTML =
+  //   "Un site Internet pour découvrir les principaux héros de l'univers DC. Vous pouvez utiliser le moteur de recherche pour trouver vos héros préférés. Développé avec Angular et hébergé sur Firebase.";
+
+  let t500 = document.getElementById("t500");
+  t500.innerHTML =
+    "Application pour gérer vos tâches de manière ludique. Créé avec React en utilisant Typescript.";
+
+  let t501 = document.getElementById("t501");
+  t501.innerHTML =
+    "Une application pour suivre les patients (animaux de compagnie) et les rendez-vous. Site hébergé sur Netlify.";
 }
