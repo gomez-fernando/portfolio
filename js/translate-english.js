@@ -212,5 +212,10 @@ function english() {
   let t501 = document.getElementById("t501");
   t501.innerHTML =
     "An application to keep track of patients (pets) and appointments. Website hosted on Netlify.";
+
+  let t510 = document.getElementById("t510");
+  t510.innerHTML =
+    "An intuitive and agile app to keep track of your expenses and manage your personal budgets, or for an event, activity, etc.";
+    
 }
 

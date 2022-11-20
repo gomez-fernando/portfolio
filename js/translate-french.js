@@ -213,4 +213,8 @@ function french() {
   let t501 = document.getElementById("t501");
   t501.innerHTML =
     "Une application pour suivre les patients (animaux de compagnie) et les rendez-vous. Site hébergé sur Netlify.";
+
+  let t510 = document.getElementById("t510");
+  t510.innerHTML =
+    "Une application intuitive et agile pour suivre vos dépenses et gérer vos budgets personnels, ou pour un événement, une activité, etc.";
 }

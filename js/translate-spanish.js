@@ -200,7 +200,7 @@ function spanish() {
 
   let t480 = document.getElementById("t480");
   t480.innerHTML =
-    "Un blog sobre trucos y curiosidades del mundo Linux. Puedes crear tu cuenta y getionar tus posts, dejar comentarios y dar like a tus favoritos. Desarrollado con Symfony 5.";
+    "Un blog sobre trucos y curiosidades del mundo Linux. Puedes crear tu cuenta y gestionar tus posts, dejar comentarios y dar like a tus favoritos. Desarrollado con Symfony 5.";
 
   // let t490 = document.getElementById("t490");
   // t490.innerHTML =
@@ -213,4 +213,8 @@ function spanish() {
   let t501 = document.getElementById("t501");
   t501.innerHTML =
     "Una aplicación para llevar el control de los pacientes (mascotas) y de las citas. Web alojada en Netlify.";
+
+  let t510 = document.getElementById("t510");
+  t510.innerHTML =
+    "Una aplicación intuitiva y ágil para llevar el control de tus gastos y administrar tus presupuestos personales, o para un evento, actividad, etc.";
 }
