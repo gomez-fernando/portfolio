@@ -217,4 +217,12 @@ function spanish() {
   let t510 = document.getElementById("t510");
   t510.innerHTML =
     "Una aplicación intuitiva y ágil para llevar el control de tus gastos y administrar tus presupuestos personales, o para un evento, actividad, etc.";
+
+  let t520 = document.getElementById("t520");
+  t520.innerHTML =
+    "Una app para cotizar al instante las principales criptomonedas de mayor capitalización. Selecciona el par y recibe la última cotización, actualizada desde cryptocompare.com";
+
+  let t530 = document.getElementById("t530");
+  t530.innerHTML =
+    "Una aplicación para crear tu lista de vídeos favoritos de Youtube. Puedes gestionar tus favoritos y reproducirlos diretamente en la app. El API REST está desarrollado con Symfony. El front end está desarrollado con Angular.";
 }

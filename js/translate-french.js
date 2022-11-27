@@ -217,4 +217,12 @@ function french() {
   let t510 = document.getElementById("t510");
   t510.innerHTML =
     "Une application intuitive et agile pour suivre vos dépenses et gérer vos budgets personnels, ou pour un événement, une activité, etc.";
+
+  let t520 = document.getElementById("t520");
+  t520.innerHTML =
+    "Une application pour citer instantanément les principales crypto-monnaies avec la plus grande capitalisation. Sélectionnez la paire et recevez le dernier devis, mis à jour depuis cryptocompare.com";
+
+  let t530 = document.getElementById("t530");
+  t530.innerHTML =
+    "Une application pour créer votre liste de vidéos Youtube préférées. Vous pouvez gérer vos favoris et les jouer directement dans l'application. L'API REST est développée avec Symfony. Le front-end est développé avec Angular.";
 }

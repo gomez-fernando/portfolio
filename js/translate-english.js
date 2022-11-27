@@ -216,6 +216,13 @@ function english() {
   let t510 = document.getElementById("t510");
   t510.innerHTML =
     "An intuitive and agile app to keep track of your expenses and manage your personal budgets, or for an event, activity, etc.";
-    
+
+  let t520 = document.getElementById("t520");
+  t520.innerHTML =
+    "An app to instantly quote the main cryptocurrencies with the largest capitalization.Select the pair and receive the latest quote, updated from cryptocompare.com";
+
+  let t530 = document.getElementById("t530");
+  t530.innerHTML =
+    "An application to create your list of favorite Youtube videos. You can manage your favorites and play them directly in the app. The REST API is developed with Symfony. The front end is developed with Angular.";
 }
 
