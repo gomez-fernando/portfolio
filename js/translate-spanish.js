@@ -41,6 +41,11 @@ function spanish() {
     item.innerHTML = "En mi cuenta de ";
   }
 
+  let servier = document.getElementsByClassName("t_servier");
+  for (let item of servier) {
+    item.innerHTML = "Todos los derechos pertenecen a Laboratorios Servier y a Doctaforum S.L.";
+  }
+
   let find = document.getElementsByClassName("t_find");
   for (let item of find) {
     item.innerHTML = "encontrarás el código de esta web.";
@@ -87,9 +92,6 @@ function spanish() {
   let t110 = document.getElementById("t110");
   t110.innerHTML =
     "Plataforma educativa online donde los estudiantes pueden ver y descargar los vídeos y materiales. Sistema de contacto con los tutores. La aplicación corrige los tests y entrega todas las estadísticas de actividad y calificaciones de los alumnos.";
-
-  let servier = document.getElementById("servier");
-  servier.innerHTML = "Todos los derechos pertenecen a Laboratorios Servier y a Doctaforum S.L.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -225,4 +227,24 @@ function spanish() {
   let t530 = document.getElementById("t530");
   t530.innerHTML =
     "Una aplicación para crear tu lista de vídeos favoritos de Youtube. Puedes gestionar tus favoritos y reproducirlos diretamente en la app. El API REST está desarrollado con Symfony. El front end está desarrollado con Angular.";
+
+  let t540 = document.getElementById("t540");
+  t540.innerHTML =
+    "Plataforma de acceso privado para el desarrollo de la campaña Unidos por la Adherencia.";
+
+  let t550 = document.getElementById("t550");
+  t550.innerHTML =
+    "Una versión ligera de Trello. Se pueden crear listas y tareas, así como cambiarlas de orden y de lista usando drag and drop.";
+
+  let t560 = document.getElementById("t560");
+  t560.innerHTML =
+    "Plataforma de acceso privado con diversas funcionalidades de vídeo interactivo, encuestas y materiales conmemorando el 10º aniversario de Vpriv.";
+
+  let t570 = document.getElementById("t_takeda");
+  t570.innerHTML =
+    "Todos los derechos pertenecen a Takeda Pharmaceutical Company Limited y Doctaforum S.L.";
+
+  let t580 = document.getElementById("t_lundbeck");
+  t580.innerHTML =
+    "Todos los derechos pertenecen a Otsuka, Lundbeck y Doctaforum S.L.";
 }

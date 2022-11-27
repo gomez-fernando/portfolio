@@ -32,15 +32,19 @@
     <section id="welcome">
         <div class="welcome-container">
             <div class="wow fadeIn">
-                <h1 id="t10">Fernando Gomez <br> Desarrollador Web</h1>
+                <h1 id="t10">Fernando Gómez <br> Desarrollador Web</h1>
                 <h2><span class="rotating"> JavaScript, React, Unit Testing, Typescript, API RESTful, Redux, NodeJS,
                         Ajax, Symfony, PHP, JSON, Mongo DB, Websockets, MySql, Jest, Sass / Stylus / Less, Bootstrap,
                         CSS Flex / CSS Grid</span>
                 </h2>
                 <div class="flags">
-                    <img class="bandera" onclick="spanish();" src="./img/sp_flag.png" alt="cambiar idioma a español">
-                    <img class="bandera" onclick="english();" src="./img/uk_flag.png" alt="cambiar idioma a inglés">
-                    <img class="bandera" onclick="french();" src="./img/fr_flag.png" alt="cambiar idioma a francés">
+                    <img class="bandera" onclick="spanish(); localStorage.setItem('translate', 'spanish');"
+                        src="./img/sp_flag.png" alt="cambiar idioma a español">
+                    <img class="bandera" onclick="english(); localStorage.setItem('translate', 'english');"
+                        src="./img/uk_flag.png" alt="cambiar idioma a inglés">
+                    <img class="bandera" onclick="french(); localStorage.setItem('translate', 'french');" src="./img/fr_flag.png" alt="cambiar idioma a francés">
+                    <img class="bandera" onclick="portuguese(); localStorage.setItem('translate', 'portuguese');" src="./img/port_flag.png"
+                        alt="cambiar idioma a francés">
                 </div>
                 <div class="actions">
                     <a href="#about" class="btn-welcome t_welcome">Bienvenido/as</a>
@@ -169,7 +173,8 @@
                         <div class="details">
                             <a href="https://chat-app-react-fernando-gomez.netlify.app/" target="_blank">
                                 <h4>Lightning Chat</h4>
-                                <span id="lightningchat">Una app de chat en tiempo real. Construída con websockets, React-Redux en el frontend y Nest en el backend.</span> <br>
+                                <span id="lightningchat">Una app de chat en tiempo real. Construída con websockets,
+                                    React-Redux en el frontend y Nest en el backend.</span> <br>
                                 <span>Typescript, React, Redux, Websockets, Nest, Netlify, Heroku</span> <br>
                             </a>
                             <span class="t_account" style="display: inline;">En </span><a
@@ -207,7 +212,8 @@
                                 </span> <br>
                                 <span class="t_devel">Desarrollado durante mi trabajo en
                                     Doctaforum S.L.</span>
-                                <span class="t_geicam">Todos los derechos pertenecen al Grupo Geicam y a Doctaforum S.L.</span><br>
+                                <span class="t_geicam">Todos los derechos pertenecen al Grupo Geicam y a Doctaforum
+                                    S.L.</span><br>
                                 <span>Symfony 5, Ajax, MySql, Bootstrap</span> <br>
                             </a>
                             <!-- <span class="t_account" style="display: inline;">En mi cuenta de </span><a href="https://github.com/gomez-fernando/videos-angular" target="_blank">Github</a>
@@ -265,7 +271,8 @@
                                     alumnos.</span> <br>
                                 <span class="t_devel">Desarrollado durante mi trabajo en
                                     Doctaforum S.L.</span>
-                                <span id="servier">Todos los derechos pertenecen a Laboratorios Servier y a Doctaforum
+                                <span class="t_servier">Todos los derechos pertenecen a Laboratorios Servier y a
+                                    Doctaforum
                                     S.L.</span><br>
                                 <span>API RESTful, Symfony 5, MySql, Bootstrap, CSS Grid</span> <br>
                             </a>
@@ -280,19 +287,22 @@
                 </div>
                 <div class="section-title-divider sep_vis"></div>
 
-                 <!-- TODO App -->
-                 <div class="col-md-4">
+                <!-- TODO App -->
+                <div class="col-md-4">
                     <h4 class="text-center">React | Typescript</h4>
                     <div class="portfolio-item" style="background-image: url(./img/todo-react.png);">
                         <div class="details">
                             <a href="https://react-todo-fernando-gomez.netlify.app/" target="_blank">
-                                <h4 >TODO app</h4>
-                                <span id="t500">Aplicación para gestionar tus tareas de forma divertida. Creada con React usando Typescript.</span> <br>
+                                <h4>TODO app</h4>
+                                <span id="t500">Aplicación para gestionar tus tareas de forma divertida. Creada con
+                                    React usando Typescript.</span> <br>
                                 <span>React, Typescript, Netlify</span> <br>
                             </a>
                             <span class="t_account" style="display: inline;">En mi cuenta de </span>
-                            <a href="https://github.com/gomez-fernando/todo-react-typescript" target="_blank">Github </a>
-                            <span class="t_find" style="display: inline;">encontrarás el código de esta web.</span> <br><br><br>
+                            <a href="https://github.com/gomez-fernando/todo-react-typescript" target="_blank">Github
+                            </a>
+                            <span class="t_find" style="display: inline;">encontrarás el código de esta web.</span>
+                            <br><br><br>
                             <a href="https://react-todo-fernando-gomez.netlify.app/" target="_blank">
                                 <h4 class="t_visit" style="margin-top: 18px;">Visitar el sitio web</h4>
                             </a>
@@ -309,12 +319,13 @@
                         <div class="details">
                             <a href="https://www.v-gaucher.com" target="_blank">
                                 <h4>10 años Vpriv</h4>
-                                <span id="t110">Plataforma de acceso privado con diversas funcionalidades de vídeo
+                                <span id="t560">Plataforma de acceso privado con diversas funcionalidades de vídeo
                                     interactivo, encuestas y materiales conmemorando el 10º aniversario de
                                     Vpriv.</span><br>
-                                <span>Desarrollado durante mi trabajo en
+                                <span class="t_devel">Desarrollado durante mi trabajo en
                                     Doctaforum S.L.</span>
-                                <span>Todos los derechos pertenecen a Takeda Pharmaceutical Company Limited y Doctaforum
+                                <span id="t_takeda">Todos los derechos pertenecen a Takeda Pharmaceutical Company
+                                    Limited y Doctaforum
                                     S.L.</span><br>
                                 <span>Symfony 5, Ajax, MySql, Bootstrap, CSS Grid</span>
                             </a>
@@ -341,12 +352,15 @@
                         <div class="details">
                             <a href="https://smart-expense-control.netlify.app/" target="_blank">
                                 <h4>Smart Budget Control</h4>
-                                <span id="t510">Una aplicación intuitiva y ágil para llevar el control de tus gastos y administrar tus presupuestos personales, o para un evento, actividad, etc.</span><br>
+                                <span id="t510">Una aplicación intuitiva y ágil para llevar el control de tus gastos y
+                                    administrar tus presupuestos personales, o para un evento, actividad,
+                                    etc.</span><br>
                                 <span>React, React Swipeable List</span> <br>
                             </a>
-                            <span class="t_account" style="display: inline;">En mi cuenta de </span><a href="https://github.com/gomez-fernando/expense-control" target="_blank">Github</a>
+                            <span class="t_account" style="display: inline;">En mi cuenta de </span><a
+                                href="https://github.com/gomez-fernando/expense-control" target="_blank">Github</a>
                             <span class="t_find" style="display: inline;">
-                                encontrarás el código de esta web.</span> 
+                                encontrarás el código de esta web.</span>
                             <a href="https://smart-expense-control.netlify.app/" target="_blank">
                                 <h4 class="t_visit" style="margin-top: 18px;">Visitar el sitio web</h4>
                             </a>
@@ -362,7 +376,9 @@
                         <div class="details">
                             <a href="https://crypto-prices-2022.netlify.app/" target="_blank">
                                 <h4>Crypto Prices</h4>
-                                <span id="t520">Una app para cotizar al instante las principales criptomonedas de mayor capitalización. Selecciona el par y recibe la última cotización, actualizada desde cryptocompare.com</span> <br>
+                                <span id="t520">Una app para cotizar al instante las principales criptomonedas de mayor
+                                    capitalización. Selecciona el par y recibe la última cotización, actualizada desde
+                                    cryptocompare.com</span> <br>
                                 <span>React, Styled components, @emotion/react, @emotion/styled</span> <br>
                             </a>
                             <span class="t_account" style="display: inline;">En mi cuenta de </span><a
@@ -377,8 +393,8 @@
                 </div>
                 <div class="section-title-divider sep_vis"></div>
 
-                  <!-- 2START -->
-                  <div class="col-md-4">
+                <!-- 2START -->
+                <div class="col-md-4">
                     <h4 class="text-center">Symfony</h4>
                     <div class="portfolio-item" style="background-image: url(./img/2start.png);">
                         <div class="details">
@@ -386,9 +402,10 @@
                                 <h4>2 START</h4>
                                 <span id="t110">Plataforma educativa online para la campaña Un nuevo inicio en
                                     esquizofrenia.</span><br>
-                                <span>Desarrollado durante mi trabajo en
+                                <span class="t_devel">Desarrollado durante mi trabajo en
                                     Doctaforum S.L.</span>
-                                <span>Todos los derechos pertenecen a Otsuka, Lundbeck y Doctaforum S.L.</span><br>
+                                <span id="t_lundbeck">Todos los derechos pertenecen a Otsuka, Lundbeck y Doctaforum
+                                    S.L.</span><br>
                                 <span>Symfony 5, Ajax, MySql, Bootstrap, CSS Grid</span> <br>
                             </a>
                             <!-- <span class="t_account" style="display: inline;">En mi cuenta de </span><a href="https://github.com/gomez-fernando/amazing-store" target="_blank">Github</a>
@@ -438,11 +455,13 @@
                 <!-- Veterinary Appointments -->
                 <div class="col-md-4">
                     <h4 class="text-center">React | Tailwind CSS</h4>
-                    <div class="portfolio-item" style="background-image: url(./img/veterinary-appointments-landscape.png);">
+                    <div class="portfolio-item"
+                        style="background-image: url(./img/veterinary-appointments-landscape.png);">
                         <div class="details">
                             <a href="https://veterinary-appointments-amazingweb.netlify.app" target="_blank">
                                 <h4>Veterinary Appointments</h4>
-                                <span id="t501">Una aplicación para llevar el control de los pacientes (mascotas) y de las citas. Web alojada en Netlify.</span>
+                                <span id="t501">Una aplicación para llevar el control de los pacientes (mascotas) y de
+                                    las citas. Web alojada en Netlify.</span>
                                 <br>
                                 <span>React, Tailwind CSS, Vite, Netlify</span> <br>
                             </a>
@@ -451,10 +470,10 @@
                             <span class="t_find" style="display: inline;">encontrarás el código de esta web.</span> <br>
                             <a href="https://veterinary-appointments-amazingweb.netlify.app" target="_blank">
                                 <h4 class="t_visit" style="margin-top: 18px;">Visitar el sitio web</h4>
-                            </a> 
+                            </a>
                         </div>
                     </div>
-                </div> 
+                </div>
                 <div class="section-title-divider sep_vis"></div>
 
                 <!-- World News -->
@@ -462,7 +481,7 @@
                     <h4 class="text-center">Laravel</h4>
                     <div class="portfolio-item" style="background-image: url(./img/worldnews.png);">
                         <div class="details">
-                            <a >
+                            <a>
                                 <h4>World News</h4>
                                 <span id="t120">Un CMS desarrollado íntegramente con Laravel 6. Utiliza una base de
                                     datos
@@ -481,8 +500,8 @@
                 </div>
                 <div class="section-title-divider sep_vis"></div>
 
-                  <!-- VIDA RURAL -->
-                  <div class="col-md-4">
+                <!-- VIDA RURAL -->
+                <div class="col-md-4">
                     <h4 class="text-center">Vue.js</h4>
                     <div class="portfolio-item" style="background-image: url(./img/vida-rural.png);">
                         <div class="details">
@@ -541,7 +560,7 @@
                     <h4 class="text-center">Laravel</h4>
                     <div class="portfolio-item" style="background-image: url(./img/sitioweb.PNG);">
                         <div class="details">
-                            <a >
+                            <a>
                                 <h4 id="t220">Tienda online Smart Wallet</h4>
                                 <span id="t230">Un sitio web responsive para vender monederos de criptomonedas. Se puede
                                     abrir una cuenta y hacer los pedidos desde el carrito de la compra. Utiliza una base
@@ -713,8 +732,8 @@
                 </div>
                 <div class="section-title-divider sep_vis"></div>
 
-                  <!-- JQUERY BLOG -->
-                  <div class="col-md-4">
+                <!-- JQUERY BLOG -->
+                <div class="col-md-4">
                     <h4 class="text-center">jQuery</h4>
                     <div class="portfolio-item" style="background-image: url(./img/jQueryBlog.png);">
                         <div class="details">
@@ -739,8 +758,8 @@
             <div class="section-title-divider sep_vis"></div>
             <!-- end row 7 -->
 
-             <!-- row 8 -->
-             <div class="row">
+            <!-- row 8 -->
+            <div class="row">
                 <!-- UNIDOS -->
                 <div class="col-md-4">
                     <h4 class="text-center">Symfony</h4>
@@ -748,11 +767,12 @@
                         <div class="details">
                             <a href="https://www.unidoscv.com" target="_blank">
                                 <h4>Unidos</h4>
-                                <span id="t110">Plataforma de acceso privado para el desarrollo de la campaña Unidos por
+                                <span id="t540">Plataforma de acceso privado para el desarrollo de la campaña Unidos por
                                     la Adherencia.</span><br>
-                                <span>Desarrollado durante mi trabajo en
+                                <span class="t_devel">Desarrollado durante mi trabajo en
                                     Doctaforum S.L.</span>
-                                <span>Todos los derechos pertenecen a Laboratorios Servier y a Doctaforum
+                                <span class="t_servier">Todos los derechos pertenecen a Laboratorios Servier y a
+                                    Doctaforum
                                     S.L.</span><br>
                                 <span>Symfony 5, Ajax, MySql, Bootstrap, CSS Grid</span> <br>
                             </a>
@@ -771,7 +791,8 @@
                         <div class="details">
                             <a href="https://trello-light.netlify.app/" target="_blank">
                                 <h4>Trello Light</h4>
-                                <span id="t470">Una versión ligera de Trello. Se pueden crear listas y tareas, así como cambiarlas de orden y de lista usando drag and drop.</span> <br>
+                                <span id="t550">Una versión ligera de Trello. Se pueden crear listas y tareas, así como
+                                    cambiarlas de orden y de lista usando drag and drop.</span> <br>
                                 <span>React, Styled components, Typescript, React-DnD, Immer, Nanoid</span> <br>
                             </a>
                             <span class="t_account" style="display: inline;">En mi cuenta de </span><a
@@ -786,14 +807,17 @@
                 </div>
                 <div class="section-title-divider sep_vis"></div>
 
-                  <!-- Favovideos -->
+                <!-- Favovideos -->
                 <div class="col-md-4">
                     <h4 class="text-center">API RESTful | Angular | Symfony</h4>
                     <div class="portfolio-item" style="background-image: url(./img/videos-angular.png);">
                         <div class="details">
                             <a href="https://favovideos-1.web.app" target="_blank">
                                 <h4>FavoVideos</h4>
-                                <span id="t530">Una aplicación para crear tu lista de vídeos favoritos de Youtube. Puedes gestionar tus favoritos y reproducirlos diretamente en la app. El API REST está desarrollado con Symfony. El front end está desarrollado con Angular.</span> <br>
+                                <span id="t530">Una aplicación para crear tu lista de vídeos favoritos de Youtube.
+                                    Puedes gestionar tus favoritos y reproducirlos diretamente en la app. El API REST
+                                    está desarrollado con Symfony. El front end está desarrollado con Angular.</span>
+                                <br>
                                 <span>API RESTful, Angular, Symfony, Firebase, TypeScript, Bootstrap</span> <br>
                             </a>
                             <span class="t_account" style="display: inline;">En mi cuenta de </span><a
@@ -827,8 +851,8 @@
             <!-- row 1 -->
             <div class="row">
 
-                 <!-- vue.js   -->
-                 <!-- <div class="col-md-4 certificates-item">
+                <!-- vue.js   -->
+                <!-- <div class="col-md-4 certificates-item">
                     <div class="certificates-icon"><a
                             href="https://platzi.com/@fernando_gomez/curso/1752-vuejs/diploma/detalle/"
                             target="_blank"><i class="fa fa-university"></i></a>
@@ -853,15 +877,15 @@
                             target="_blank"><i class="fa fa-university"></i></a>
                     </div>
                     <h4 class="certificates-title"><a
-                            href="https://platzi.com/p/fernando_gomez/curso/1788-course/diploma/detalle/" target="_blank"
-                            id="t270">Curso de Unit Testing con Jest en React</a></h4><br>
+                            href="https://platzi.com/p/fernando_gomez/curso/1788-course/diploma/detalle/"
+                            target="_blank" id="t270">Curso de Unit Testing con Jest en React</a></h4><br>
                     <p class="certificates-description" id="c_desc_1"><span class="t_course"
                             style="display: inline;">Curso
                             realizado en la plataforma educativa </span><a href="https://platzi.com"
                             target="_blank"><strong>Platzi</strong></a>. </p>
                     <h5 class="certificates-title"><a
-                            href="https://platzi.com/p/fernando_gomez/curso/1788-course/diploma/detalle/" target="_blank"
-                            id="ver1">Visualizar documento</a></h5>
+                            href="https://platzi.com/p/fernando_gomez/curso/1788-course/diploma/detalle/"
+                            target="_blank" id="ver1">Visualizar documento</a></h5>
                     <hr>
                 </div>
 
@@ -1280,6 +1304,30 @@
     <script src="./js/translate-english.js"></script>
     <script src="./js/translate-french.js"></script>
     <script src="./js/translate-spanish.js"></script>
+    <script src="./js/translate-portuguese.js"></script>
+
+
+    <script>
+        if (localStorage.getItem("translate")) {
+            const value = localStorage.getItem("translate");
+            switch (value) {
+                case 'spanish':
+                    spanish();
+                    break;
+                case 'english':
+                    english();
+                    break;
+                case 'french':
+                    french();
+                    break;
+                case 'portuguese':
+                    portuguese();
+                    break;
+                default:
+                    break;
+            }
+        }
+    </script>
 
 
 

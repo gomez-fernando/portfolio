@@ -31,6 +31,11 @@ function english() {
     item.innerHTML = "In my ";
   }
 
+  let servier = document.getElementsByClassName("t_servier");
+  for (let item of servier) {
+    item.innerHTML = "All rights belong to Servier Laboratories and Doctaforum S.L.";
+  }
+
   let devel = document.getElementsByClassName("t_devel");
   for (let item of devel) {
     item.innerHTML = "Developed during my work at Doctaforum S.L.";
@@ -87,9 +92,6 @@ function english() {
   let t110 = document.getElementById("t110");
   t110.innerHTML =
     "Online educational platform where students can view and download videos and materials. Tutor contact system. The application corrects the tests and delivers all the activity statistics and grades of the students.";
-
-  let servier = document.getElementById("servier");
-  servier.innerHTML = "All rights belong to Servier Laboratories and Doctaforum S.L.";
 
   let t120 = document.getElementById("t120");
   t120.innerHTML =
@@ -224,5 +226,25 @@ function english() {
   let t530 = document.getElementById("t530");
   t530.innerHTML =
     "An application to create your list of favorite Youtube videos. You can manage your favorites and play them directly in the app. The REST API is developed with Symfony. The front end is developed with Angular.";
+
+  let t540 = document.getElementById("t540");
+  t540.innerHTML =
+    "Private access platform for the development of the Unite for Adherence campaign.";
+
+  let t550 = document.getElementById("t550");
+  t550.innerHTML =
+    "A lightweight version of Trello. You can create lists and tasks, as well as change them in order and list using drag and drop.";
+
+  let t560 = document.getElementById("t560");
+  t560.innerHTML =
+    "Private access platform with various interactive video features, surveys and materials commemorating the 10th anniversary of Vpriv.";
+
+  let t570 = document.getElementById("t_takeda");
+  t570.innerHTML =
+    "All rights belong to Takeda Pharmaceutical Company Limited and Doctaforum S.L.";
+
+  let t580 = document.getElementById("t_lundbeck");
+  t580.innerHTML =
+    "All rights belong to Otsuka, Lundbeck and Doctaforum S.L.";
 }
 
