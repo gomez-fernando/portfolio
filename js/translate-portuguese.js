@@ -87,7 +87,7 @@ function portuguese() {
 
   let t100 = document.getElementById("t100");
   t100.innerHTML =
-    "Site para seguir as citações das principais criptomonedas. Utiliza a API do CoinCap para obter todos os dados necessários, além de mostrar um gráfico da evolução do preço nas últimas 24 horas.";
+    "Site para seguir as citações das principais criptomoedas. Utiliza a API do CoinCap para obter todos os dados necessários, além de mostrar um gráfico da evolução do preço nas últimas 24 horas.";
 
   let t110 = document.getElementById("t110");
   t110.innerHTML =
@@ -221,7 +221,7 @@ function portuguese() {
 
   let t520 = document.getElementById("t520");
   t520.innerHTML =
-    "Um aplicativo para listar instantaneamente as principais criptomonedas de maior capitalização. Selecione o par e receba a última cotação, atualizada a partir cryptocompare.com";
+    "Um aplicativo para listar instantaneamente as principais criptomoedas de maior capitalização. Selecione o par e receba a última cotação, atualizada a partir cryptocompare.com";
 
   let t530 = document.getElementById("t530");
   t530.innerHTML =
