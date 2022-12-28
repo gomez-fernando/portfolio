@@ -247,4 +247,16 @@ function french() {
   let t580 = document.getElementById("t_lundbeck");
   t580.innerHTML =
     "Tous les droits appartiennent à Otsuka, Lundbeck et Doctaforum S.L.";
+
+  let t590 = document.getElementById("t590");
+  t590.innerHTML =
+    "Application légère où simuler la cotisation d’assurance automobile en tenant compte du fabricant, de l’année d’immatriculation et des couvertures d’assurance.";
+
+  let t600 = document.getElementById("t600");
+  t600.innerHTML =
+    "Courtier en assurance automobile";
+
+  let t610 = document.getElementById("t610");
+  t610.innerHTML =
+    "Un site Web pour découvrir les principaux héros de l’univers DC. Vous pouvez utiliser le moteur de recherche pour trouver vos héros préférés. Développé avec Angular et hébergé chez Firebase.";
 }
