@@ -258,5 +258,9 @@ function english() {
   let t610 = document.getElementById("t610");
   t610.innerHTML =
     "A website to discover the main heroes of the DC universe. You can use the search engine to find your favorite heroes. Developed with Angular and hosted in Firebase.";
+
+  let t620 = document.getElementById("t620");
+  t620.innerHTML =
+    "An application to check the weather of each city in different countries. Use the Open Weather Map Api.";
 }
 

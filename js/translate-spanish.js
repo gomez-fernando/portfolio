@@ -259,4 +259,8 @@ function spanish() {
   let t610 = document.getElementById("t610");
   t610.innerHTML =
     "Un sitio web para descubrir los principales héroes del universo DC. Puedes usar el buscador para encontrar tus héroes favoritos. Desarrollado con Angular y alojado en Firebase.";
+
+  let t620 = document.getElementById("t620");
+  t620.innerHTML =
+    "Una aplicación para consultar el tiempo de cada ciudad en diferentes países. Utiliza la Api de Open Weather Map.";
 }

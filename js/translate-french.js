@@ -259,4 +259,8 @@ function french() {
   let t610 = document.getElementById("t610");
   t610.innerHTML =
     "Un site Web pour découvrir les principaux héros de l’univers DC. Vous pouvez utiliser le moteur de recherche pour trouver vos héros préférés. Développé avec Angular et hébergé chez Firebase.";
+
+  let t620 = document.getElementById("t620");
+  t620.innerHTML =
+    "Une application pour consulter le temps de chaque ville dans différents pays. Elle utilise l’Api Open Weather Map.";
 }
