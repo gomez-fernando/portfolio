@@ -263,4 +263,12 @@ function french() {
   let t620 = document.getElementById("t620");
   t620.innerHTML =
     "Une application pour consulter le temps de chaque ville dans différents pays. Elle utilise l’Api Open Weather Map.";
+
+  let t630 = document.getElementById("t630");
+  t630.innerHTML =
+    "Moteur de recherche de nouvelles";
+
+  let t640 = document.getElementById("t640");
+  t640.innerHTML =
+    "Un site web pour trouver les nouvelles du jour. Il utilise l’api de newsapi.org. Filtré par catégories de nouvelles avec un composant de pagination.";
 }

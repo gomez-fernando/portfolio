@@ -262,5 +262,13 @@ function english() {
   let t620 = document.getElementById("t620");
   t620.innerHTML =
     "An application to check the weather of each city in different countries. Use the Open Weather Map Api.";
+
+  let t630 = document.getElementById("t630");
+  t630.innerHTML =
+    "News Search Engine";
+
+  let t640 = document.getElementById("t640");
+  t640.innerHTML =
+    "A website to find the news of the day. It uses the newsapi.org's api. News filtered by categories and paging component.";
 }
 

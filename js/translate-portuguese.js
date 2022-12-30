@@ -262,5 +262,13 @@ function portuguese() {
   let t620 = document.getElementById("t620");
   t620.innerHTML =
     "Um aplicativo para verificar o tempo de cada cidade em diferentes países. Ele usa o Open Weather Map Api.";
+
+  let t630 = document.getElementById("t630");
+  t630.innerHTML =
+    "Buscador de Notícias";
+
+  let t640 = document.getElementById("t640");
+  t640.innerHTML =
+    "Um site para encontrar as notícias do dia. Ele usa a api newsapi.org. Filtragem por categorias de notícias e um componente de paginação.";
 }
 
