@@ -271,4 +271,12 @@ function spanish() {
   let t640 = document.getElementById("t640");
   t640.innerHTML =
     "Un sitio web para encontrar las noticias del día. Utiliza la api de newsapi.org. Filtrado por categorías de noticias y componente de paginación.";
+
+  let t650 = document.getElementById("t650");
+  t650.innerHTML =
+    "Buscador de Bebidas";
+
+  let t660 = document.getElementById("t660");
+  t660.innerHTML =
+    "Una aplicación para encontrar todas las bebidas que puedas imaginar. También puedes ver la receta para preparala tú mismo en casa.";
 }

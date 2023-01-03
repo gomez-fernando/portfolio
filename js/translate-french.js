@@ -271,4 +271,12 @@ function french() {
   let t640 = document.getElementById("t640");
   t640.innerHTML =
     "Un site web pour trouver les nouvelles du jour. Il utilise l’api de newsapi.org. Filtré par catégories de nouvelles avec un composant de pagination.";
+
+  let t650 = document.getElementById("t650");
+  t650.innerHTML =
+    "Moteur de recherche de boissons";
+
+  let t660 = document.getElementById("t660");
+  t660.innerHTML =
+    "Une application pour trouver toutes les boissons que vous pouvez imaginer. Vous pouvez également consulter la recette pour la préparer vous-même à la maison.";
 }

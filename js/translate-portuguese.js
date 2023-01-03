@@ -270,5 +270,13 @@ function portuguese() {
   let t640 = document.getElementById("t640");
   t640.innerHTML =
     "Um site para encontrar as notícias do dia. Ele usa a api newsapi.org. Filtragem por categorias de notícias e um componente de paginação.";
+
+  let t650 = document.getElementById("t650");
+  t650.innerHTML =
+    "Buscador de Bebidas";
+
+  let t660 = document.getElementById("t660");
+  t660.innerHTML =
+    "Um aplicativo para encontrar todas as bebidas que você pode imaginar. Você também pode ver a receita para prepará-lo você mesmo em casa.";
 }
 

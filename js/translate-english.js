@@ -270,5 +270,13 @@ function english() {
   let t640 = document.getElementById("t640");
   t640.innerHTML =
     "A website to find the news of the day. It uses the newsapi.org's api. News filtered by categories and paging component.";
+
+  let t650 = document.getElementById("t650");
+  t650.innerHTML =
+    "Drinks Search Engine";
+
+  let t660 = document.getElementById("t660");
+  t660.innerHTML =
+    "An app to find all the drinks you can imagine. You can also see the recipe to prepare it yourself at home.";
 }
 
