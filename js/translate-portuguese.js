@@ -147,7 +147,7 @@ function portuguese() {
   t300.innerHTML = "Curso de Scrum";
 
   let t310 = document.getElementById("t310");
-  t310.innerHTML = "Curso de EcmaScript 6+";
+  t310.innerHTML = "Curso de JavaScript Ecma 6+";
 
   let t320 = document.getElementById("t320");
   t320.innerHTML = "Curso Profissional de Git e Github";
