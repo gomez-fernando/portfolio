@@ -132,17 +132,17 @@ function english() {
   let t250 = document.getElementById("t250");
   t250.innerHTML = "Symfony 5 Course (PHP Master)";
 
-  let t260 = document.getElementById("t260");
-  t260.innerHTML = "Angular 8 Course";
+  // let t260 = document.getElementById("t260");
+  // t260.innerHTML = "Angular 8 Course";
 
   let t270 = document.getElementById("t270");
-  t270.innerHTML = "Vue.js Course";
+  t270.innerHTML = "Unit Testing Course with Jest in React";
 
   let t280 = document.getElementById("t280");
   t280.innerHTML = "Laravel 6 Course";
 
   let t290 = document.getElementById("t290");
-  t290.innerHTML = "From jQuery to JavaScript Course";
+  t290.innerHTML = "Introduction to React Course";
 
   let t300 = document.getElementById("t300");
   t300.innerHTML = "Scrum Course";
@@ -163,7 +163,7 @@ function english() {
   t350.innerHTML = "PHP introduction course";
 
   let t360 = document.getElementById("t360");
-  t360.innerHTML = "Basic course of Java SE";
+  t360.innerHTML = "Redux Course";
 
   let t370 = document.getElementById("t370");
   t370.innerHTML = "WordPress Course";
@@ -278,5 +278,13 @@ function english() {
   let t660 = document.getElementById("t660");
   t660.innerHTML =
     "An app to find all the drinks you can imagine. You can also see the recipe to prepare it yourself at home.";
+
+  document.querySelector("#t670").innerHTML = "Introduction to Data Management Course";
+
+  document.querySelector("#t680").innerHTML = "Data Warehouse Course";
+
+  document.querySelector("#t690").innerHTML = "Python Master Course";
+
+  document.querySelector("#t700").innerHTML = "JAVA SE Basic Course";
 }
 

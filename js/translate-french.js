@@ -133,17 +133,17 @@ function french() {
   let t250 = document.getElementById("t250");
   t250.innerHTML = "Cours de Symfony 5 (Master en PHP)";
 
-  let t260 = document.getElementById("t260");
-  t260.innerHTML = "Cours de Angular 8";
+  // let t260 = document.getElementById("t260");
+  // t260.innerHTML = "Cours de Angular 8";
 
   let t270 = document.getElementById("t270");
-  t270.innerHTML = "Cours de Vue.js";
+  t270.innerHTML = "Cours de tests unitaires avec Jest dans React";
 
   let t280 = document.getElementById("t280");
   t280.innerHTML = "Cours de Laravel 6";
 
   let t290 = document.getElementById("t290");
-  t290.innerHTML = "Cours de jQuery à JavaScript";
+  t290.innerHTML = "Cours d'introduction à React";
 
   let t300 = document.getElementById("t300");
   t300.innerHTML = "Cours de Scrum";
@@ -164,7 +164,7 @@ function french() {
   t350.innerHTML = "Cours d'introduction à PHP";
 
   let t360 = document.getElementById("t360");
-  t360.innerHTML = "Cours les bases de JAVA SE";
+  t360.innerHTML = "Cours de Redux";
 
   let t370 = document.getElementById("t370");
   t370.innerHTML = "Cours de WordPress";
@@ -279,4 +279,12 @@ function french() {
   let t660 = document.getElementById("t660");
   t660.innerHTML =
     "Une application pour trouver toutes les boissons que vous pouvez imaginer. Vous pouvez également consulter la recette pour la préparer vous-même à la maison.";
+  
+  document.querySelector("#t670").innerHTML = "Cours d'introduction à Data Management";
+
+  document.querySelector("#t680").innerHTML = "Cours de Data Warehouse";
+
+  document.querySelector("#t690").innerHTML = "Cours de Master en Python";
+
+  document.querySelector("#t700").innerHTML = "Cours de base JAVA SE";
 }
