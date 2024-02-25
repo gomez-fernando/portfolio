@@ -570,7 +570,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-text {
   line-height: 26px;
-  width: 180px;
+  width: fit-content;
   margin: 0 auto;
   padding-left: 24px !important;
 }
