@@ -132,8 +132,7 @@ function english() {
   let t250 = document.getElementById("t250");
   t250.innerHTML = "Symfony 5 Course (PHP Master)";
 
-  // let t260 = document.getElementById("t260");
-  // t260.innerHTML = "Angular 8 Course";
+  document.getElementById("t260").innerHTML = "Angular Course";
 
   let t270 = document.getElementById("t270");
   t270.innerHTML = "Unit Testing Course with Jest in React";
@@ -286,5 +285,9 @@ function english() {
   document.querySelector("#t690").innerHTML = "Python Master Course";
 
   document.querySelector("#t700").innerHTML = "JAVA SE Basic Course";
+
+  document.querySelector("#t710").innerHTML = "Talend Data Integration Course";
+
+  document.querySelector("#t720").innerHTML = "Vue.js Course";
 }
 

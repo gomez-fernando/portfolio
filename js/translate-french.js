@@ -133,8 +133,7 @@ function french() {
   let t250 = document.getElementById("t250");
   t250.innerHTML = "Cours de Symfony 5 (Master en PHP)";
 
-  // let t260 = document.getElementById("t260");
-  // t260.innerHTML = "Cours de Angular 8";
+  document.getElementById("t260").innerHTML = "Cours de Angular";
 
   let t270 = document.getElementById("t270");
   t270.innerHTML = "Cours de tests unitaires avec Jest dans React";
@@ -287,4 +286,8 @@ function french() {
   document.querySelector("#t690").innerHTML = "Cours de Master en Python";
 
   document.querySelector("#t700").innerHTML = "Cours de base JAVA SE";
+
+  document.querySelector("#t710").innerHTML = "Cours de Talend Data Integration";
+
+  document.querySelector("#t720").innerHTML = "Cours de Vue.js";
 }

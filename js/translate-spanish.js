@@ -115,7 +115,7 @@ function spanish() {
 
   document.getElementById("t250").innerHTML = "Curso de Symfony 5 (Máster en PHP)";
 
-  // document.getElementById("t260").innerHTML = "Curso de Angular 8";
+  document.getElementById("t260").innerHTML = "Curso de Angular";
 
   document.getElementById("t270").innerHTML = "Curso de Unit Testing con Jest en React";
 
@@ -228,4 +228,8 @@ function spanish() {
   document.querySelector("#t690").innerHTML = "Curso de Máster en Python";
 
   document.querySelector("#t700").innerHTML = "Curso Básico de JAVA SE";
+
+  document.querySelector("#t710").innerHTML = "Curso de Talend Data Integration";
+
+  document.querySelector("#t720").innerHTML = "Curso de Vue.js";
 }
