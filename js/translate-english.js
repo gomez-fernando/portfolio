@@ -69,7 +69,7 @@ function english() {
   // Ids -------------------------------------
   // -----------------------------------------
   let t10 = document.getElementById("t10");
-  t10.innerHTML = "Fernando Gomez <br> Web Developer";
+  t10.innerHTML = "Fernando Gomez <br> Data Engineer";
 
   let t40 = document.getElementById("t40");
   t40.innerHTML =

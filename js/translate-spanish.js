@@ -68,7 +68,7 @@ function spanish() {
 
   // Ids -------------------------------------
   // -----------------------------------------
-  document.getElementById("t10").innerHTML = "Fernando Gomez <br> Desarrollador Web";
+  document.getElementById("t10").innerHTML = "Fernando Gomez <br> Data Engineer";
 
   document.getElementById("t40").innerHTML =
     "En ésta página web podéis encontrar una selección de proyectos personales. También información académica sobre mí y datos de contacto.";
